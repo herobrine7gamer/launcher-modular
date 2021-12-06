@@ -11,7 +11,7 @@ Once clickable is installed you are ready to go.
 
 2. Open a terminal: ctl + alt + t.
 
-3. Clone the repo onto your local machine using git: `git clone https://github.com/ruditimmer/launcher-modular/launcher-modular.git`.
+3. Clone the repo onto your local machine using git: `git clone https://github.com/ruditimmer/launcher-modular.git`.
 
 4. Change into Launcher Modular folder: `cd launcher-modular`.
 
