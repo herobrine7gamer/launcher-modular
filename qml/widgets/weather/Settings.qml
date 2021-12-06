@@ -163,8 +163,8 @@ Item {
     }
     ListModel {
         id: customModel
-        ListElement { name: "<font color=\"#6f6f6f\">°F</font>"; description: "<font color=\"#6f6f6f\">Fahrenheit</font>"; url:"&units=imperial" }
-        ListElement { name: "<font color=\"#6f6f6f\">°C</font>"; description: "<font color=\"#6f6f6f\">Celsius</font>"; url:"&units=metric" }
+        ListElement { name: "<font color=\"#ffffff\">°F</font>"; description: "<font color=\"#ffffff\">Fahrenheit</font>"; url:"&units=imperial" }
+        ListElement { name: "<font color=\"#ffffff\">°C</font>"; description: "<font color=\"#ffffff\">Celsius</font>"; url:"&units=metric" }
     }
 
 
