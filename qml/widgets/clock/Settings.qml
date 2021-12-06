@@ -53,7 +53,7 @@ Rectangle {
             
                 ListItem.Standard {
                     showDivider: false
-                    text: "<font color=\"#ffffff\">"+i18n.tr("Dial with digit")+"</font>"
+                    text: "<font color=\"#ffffff\">"+i18n.tr("Analog clock with digit")+"</font>"
                     control: Switch {
                         id: backgroundHoursSwitch
                         checked: if (launchermodular.settings.backgroundAnalogHours == "num"){ true; }else{ false;}

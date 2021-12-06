@@ -389,9 +389,9 @@ msgstr "Geen recente berichten"
 msgid "Settings Widget Clock"
 msgstr "Klok-widget instellingen"
 
-#: ../qml/widgets/clock/Settings.qml:59
-msgid "Dial with digit"
-msgstr "Digitale klok"
+#: ../qml/widgets/clock/Settings.qml:56
+msgid "Analog clock with digit"
+msgstr "Analoge klok met cijfer"
 
 #: ../qml/widgets/clock/Settings.qml:69
 msgid "Use 24h format"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-06 14:18+0000\n"
+"POT-Creation-Date: 2021-12-06 19:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,59 +17,59 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Main.qml:473
+#: ../qml/Main.qml:475
 msgid "Add custom icon"
 msgstr ""
 
-#: ../qml/Main.qml:500
+#: ../qml/Main.qml:502
 msgid "Manage page"
 msgstr ""
 
-#: ../qml/Main.qml:527
+#: ../qml/Main.qml:529
 msgid "Configure Launcher"
 msgstr ""
 
-#: ../qml/Main.qml:616
+#: ../qml/Main.qml:618
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr ""
 
-#: ../qml/Main.qml:629
+#: ../qml/Main.qml:631
 msgid "The <b>title</b> to be shown in the app list"
 msgstr ""
 
-#: ../qml/Main.qml:634
+#: ../qml/Main.qml:636
 msgid "Website"
 msgstr ""
 
-#: ../qml/Main.qml:634
+#: ../qml/Main.qml:636
 msgid "Open the browser with the url"
 msgstr ""
 
-#: ../qml/Main.qml:635
+#: ../qml/Main.qml:637
 msgid "Terminal command"
 msgstr ""
 
-#: ../qml/Main.qml:635
+#: ../qml/Main.qml:637
 msgid "Launch an order in a terminal"
 msgstr ""
 
-#: ../qml/Main.qml:636
+#: ../qml/Main.qml:638
 msgid "Launch app"
 msgstr ""
 
-#: ../qml/Main.qml:636
+#: ../qml/Main.qml:638
 msgid "Launch an app"
 msgstr ""
 
-#: ../qml/Main.qml:659 ../qml/Main.qml:661 ../qml/Main.qml:663
+#: ../qml/Main.qml:661 ../qml/Main.qml:663 ../qml/Main.qml:665
 msgid "<b>Action</b> exemple: "
 msgstr ""
 
-#: ../qml/Main.qml:677
+#: ../qml/Main.qml:679
 msgid "Create icon"
 msgstr ""
 
-#: ../qml/Main.qml:722 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/Main.qml:724 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
 #: ../qml/pages/Home.qml:437 ../qml/Pagemanagementback.qml:128
@@ -78,6 +78,46 @@ msgstr ""
 
 #: ../qml/About.qml:10
 msgid "About"
+msgstr ""
+
+#: ../qml/About.qml:67
+msgid "Version: "
+msgstr ""
+
+#: ../qml/About.qml:84
+msgid "A launcher modular for Ubuntu Touch"
+msgstr ""
+
+#: ../qml/About.qml:98
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version. This program is distributed in the hope that it will be "
+"useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a "
+"href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
+"License</a> for more details."
+msgstr ""
+
+#: ../qml/About.qml:113
+msgid "SOURCE"
+msgstr ""
+
+#: ../qml/About.qml:113
+msgid "ISSUES"
+msgstr ""
+
+#: ../qml/About.qml:113
+msgid "DONATE"
+msgstr ""
+
+#: ../qml/About.qml:128
+msgid "Maintainer"
+msgstr ""
+
+#: ../qml/About.qml:142
+msgid "Copyright"
 msgstr ""
 
 #: ../qml/widgets/event/Settings.qml:15
@@ -380,7 +420,7 @@ msgid "Settings Widget Clock"
 msgstr ""
 
 #: ../qml/widgets/clock/Settings.qml:56
-msgid "Dial with digit"
+msgid "Analog clock with digit"
 msgstr ""
 
 #: ../qml/widgets/clock/Settings.qml:66
@@ -556,27 +596,27 @@ msgstr ""
 msgid "Style Icons : "
 msgstr ""
 
-#: ../qml/Settings.qml:179
+#: ../qml/Settings.qml:164
 msgid "Other"
 msgstr ""
 
-#: ../qml/Settings.qml:185
+#: ../qml/Settings.qml:168
 msgid "Restore dash launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:185
+#: ../qml/Settings.qml:168
 msgid "Install Launcher Modular by default"
 msgstr ""
 
-#: ../qml/Settings.qml:203
+#: ../qml/Settings.qml:186
 msgid "You will need to restart after installing or restore"
 msgstr ""
 
-#: ../qml/Settings.qml:210
+#: ../qml/Settings.qml:193
 msgid "Replace standard dash (beta)"
 msgstr ""
 
-#: ../qml/Settings.qml:217
+#: ../qml/Settings.qml:200
 msgid "If you can not restore click here"
 msgstr ""
 

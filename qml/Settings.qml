@@ -158,28 +158,11 @@ Rectangle {
                 verticalAlignment: Text.AlignVCenter
             }
 
-            }
-
-            Slider {
-                id: slideSize
-                anchors.horizontalCenter: parent.horizontalCenter;
-                value: launchermodular.settings.iconSize
-                maximumValue: 2.0
-                minimumValue: 0
-                live: true
-                onValueChanged: { launchermodular.settings.iconSize = slideSize.value }
-                onPressedChanged: { if(pressed) {
-                    pageSettings.visible = false
-                    slideSize.visible = true;
-                } else { pageSettings.visible = true ; } }
-            }
-        
-        
+          }
+                            
             ListItem.Header {
                 text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
             }
-
-
         
         Button {
             text: LauncherModularPlug.isDashSet ? i18n.tr('Restore dash launcher') : i18n.tr('Install Launcher Modular by default')

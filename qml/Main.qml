@@ -19,6 +19,8 @@ MainView {
 
     width: units.gu(45)
     height: units.gu(75)
+    
+    property string appVersion : "v0.1.12"
 
 
     function getCustomIconArray() {
@@ -79,7 +81,7 @@ MainView {
         property string backgroundAnalogHours: ''
 
         property string iconStyle: 'rounded'
-        property string iconSize: '1'
+        property string iconSize: '0.866525720666956'
 
         property string textColor: '#FFFFFF'
         property string backgroundColor: '#000000'
