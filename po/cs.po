@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Launcher Modular\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-28 10:53+0000\n"
+"PO-Revision-Date: 2019-12-18 07:38+0000\n"
+"Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
+"Language-Team: Czech <https://translate-ut.org/projects/launcher-modular/"
+"translate/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2019-09-07 11:36+0000\n"
+
+#: ../qml/Main.qml:430
+msgid "Manage page"
+msgstr "Spravovat stránku"
+
+#: ../qml/Main.qml:457
+msgid "Configure Launcher"
+msgstr "Nastavit Launcher"
+
+#: ../qml/pages/Todo.qml:64
+msgid "new todo"
+msgstr "nové úkoly"
+
+#: ../qml/pages/Todo.qml:116 ../qml/pages/home/Settings.qml:165
+#: ../qml/Pagemanagement.qml:130
+msgid "Delete"
+msgstr "Smazat"
+
+#: ../qml/pages/Calendar.qml:103
+msgid "Agenda"
+msgstr "Agenda"
+
+#: ../qml/pages/Home.qml:153
+msgid "Search your phone and online sources"
+msgstr "Vyhledat váš telefon a on-line zdroje dat"
+
+#: ../qml/pages/Home.qml:268
+msgid "Installed Apps"
+msgstr "Nainstalované aplikace"
+
+#: ../qml/pages/Home.qml:377
+msgid "Uninstall"
+msgstr "Odinstalovat"
+
+#: ../qml/pages/Home.qml:401 ../qml/pages/home/Settings.qml:99
+#: ../qml/Pagemanagement.qml:85
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../qml/pages/News.qml:201
+msgid "by"
+msgstr "od"
+
+#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/cinema/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
+#: ../qml/pages/news/Settings.qml:15 ../qml/pages/home/Settings.qml:15
+msgid "Settings Page"
+msgstr "Stránka nastavení"
+
+#: ../qml/pages/Cinema.qml:52
+msgid "Featured"
+msgstr "Vytvořený"
+
+#: ../qml/pages/Cinema.qml:186
+msgid "Coming soon"
+msgstr "Již brzy"
+
+#: ../qml/pages/calendar/Settings.qml:51
+msgid "General"
+msgstr "Obecné"
+
+#: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
+msgid "Limit of days"
+msgstr "Omezení pro dny"
+
+#: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
+msgid "By defaut 60 days"
+msgstr "Výchozí 60 dní"
+
+#: ../qml/pages/news/Settings.qml:67
+msgid "Management of news sources"
+msgstr "Správa nových zdrojových dat"
+
+#: ../qml/pages/news/Settings.qml:77
+msgid "Transparent background"
+msgstr "Průhledné pozadí"
+
+#: ../qml/pages/news/Settings.qml:97
+msgid "Filter (XPath)"
+msgstr "Filtrovat (XPath)"
+
+#: ../qml/pages/home/Settings.qml:128
+msgid "Favorite apps management"
+msgstr "Správa oblíbených aplikací"
+
+#: ../qml/About.qml:10
+msgid "About"
+msgstr "O aplikaci"
+
+#: ../qml/Settings.qml:17
+msgid "Settings"
+msgstr "Nastavení"
+
+#: ../qml/Settings.qml:89 ../qml/widgets/lastmessage/Settings.qml:56
+#: ../qml/widgets/lastcall/Settings.qml:57
+msgid "Generals"
+msgstr "Obecné"
+
+#: ../qml/Settings.qml:94
+msgid "Dark background"
+msgstr "Tmavé pozadí"
+
+#: ../qml/Settings.qml:116
+msgid "Background blur effect"
+msgstr "Pozadí s efektem rozostření"
+
+#: ../qml/Settings.qml:124
+msgid "Standard"
+msgstr "Standard"
+
+#: ../qml/Settings.qml:124
+msgid "Style by default"
+msgstr "Výchozí styl"
+
+#: ../qml/Settings.qml:125
+msgid "Rounded"
+msgstr "Zakulacené"
+
+#: ../qml/Settings.qml:125
+msgid "Icons rounded"
+msgstr "Zakulacené ikony"
+
+#: ../qml/Settings.qml:126
+msgid "None"
+msgstr "Žádné"
+
+#: ../qml/Settings.qml:126
+msgid "Icons without style"
+msgstr "Ikonky bez stylu"
+
+#: ../qml/Settings.qml:151
+msgid "Style Icons : "
+msgstr "Styl ikon: "
+
+#: ../qml/Settings.qml:163
+msgid "Other"
+msgstr "Ostatní"
+
+#: ../qml/Settings.qml:177
+msgid "Restore dash launcher"
+msgstr "Obnovit dash launcher"
+
+#: ../qml/Settings.qml:185
+msgid "Install this Launcher"
+msgstr "Instalovat tento Launcher"
+
+#: ../qml/widgets/lastmessage/Settings.qml:15
+#: ../qml/widgets/lastcall/Settings.qml:15 ../qml/widgets/event/Settings.qml:15
+msgid "Settings Widget"
+msgstr "Widget nastavení"
+
+#: ../qml/widgets/lastmessage/Settings.qml:61
+msgid "View a summary"
+msgstr "Zobrazit přehled"
+
+#: ../qml/widgets/lastmessage/Settings.qml:70
+#: ../qml/widgets/lastcall/Settings.qml:61
+msgid "Nothing"
+msgstr "Nic"
+
+#: ../qml/widgets/lastmessage/Settings.qml:70
+#: ../qml/widgets/lastcall/Settings.qml:61
+msgid "No action"
+msgstr "Žádná akce"
+
+#: ../qml/widgets/lastmessage/Settings.qml:71
+#: ../qml/widgets/lastcall/Settings.qml:62
+msgid "Default"
+msgstr "Výchozí"
+
+#: ../qml/widgets/lastmessage/Settings.qml:71
+msgid "Open the application"
+msgstr "Otevřít aplikaci"
+
+#: ../qml/widgets/lastmessage/Settings.qml:72
+msgid "Open Message"
+msgstr "Otevřít zprávu"
+
+#: ../qml/widgets/lastmessage/Settings.qml:72
+msgid "Open the application with message"
+msgstr "Otevřít aplikaci zprávou"
+
+#: ../qml/widgets/lastmessage/Settings.qml:98
+#: ../qml/widgets/lastcall/Settings.qml:88
+msgid "When clicked : "
+msgstr "Po kliknutí : "
+
+#: ../qml/widgets/SearchContact.qml:36
+msgid "Search Contacts"
+msgstr "Vyhledat kontakty"
+
+#: ../qml/widgets/Lastcall.qml:39
+msgid "Last Call"
+msgstr "Poslední volání"
+
+#: ../qml/widgets/Lastcall.qml:59
+msgid "No recent calls"
+msgstr "Žádné poslední volání"
+
+#: ../qml/widgets/FavoriteApp.qml:49
+msgid "Favorite Apps"
+msgstr "Oblíbené aplikace"
+
+#: ../qml/widgets/Alarm.qml:31
+msgid "Alarms"
+msgstr "Budíky"
+
+#: ../qml/widgets/Alarm.qml:41
+msgid "No active alarm"
+msgstr "Žádné aktivní budíky"
+
+#: ../qml/widgets/Alarm.qml:56
+msgid "at"
+msgstr "u"
+
+#: ../qml/widgets/lastcall/Settings.qml:62
+msgid "Open the dialer"
+msgstr "Otevřít číselník"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Call"
+msgstr "Volat"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Open the dialer with number"
+msgstr "Otevřít číselník s číslem"
+
+#: ../qml/widgets/weather/Settings.qml:14
+msgid "Settings Widget Weather"
+msgstr "Nastavení widgetu počasí"
+
+#: ../qml/widgets/weather/Settings.qml:66
+msgid "Api Key"
+msgstr "Api Key"
+
+#: ../qml/widgets/weather/Settings.qml:85
+msgid "Api openweathermap"
+msgstr "Api openweathermap"
+
+#: ../qml/widgets/weather/Settings.qml:97
+msgid "Click to signup for an API key"
+msgstr "Kliknout pro přihlášení k API key"
+
+#: ../qml/widgets/weather/Settings.qml:117
+msgid "City name"
+msgstr "Název města"
+
+#: ../qml/widgets/weather/Settings.qml:136
+msgid "or"
+msgstr "nebo"
+
+#: ../qml/widgets/FavoriteContact.qml:35
+msgid "Favorite Contacts"
+msgstr "Oblíbené kontakty"
+
+#: ../qml/widgets/Lastmessage.qml:40
+msgid "Last Message"
+msgstr "Poslední zpráva"
+
+#: ../qml/widgets/Lastmessage.qml:59
+msgid "No recent messages"
+msgstr "Žádné poslední zprávy"
+
+#: ../qml/widgets/clock/Settings.qml:15
+msgid "Settings Widget Clock"
+msgstr "Nastavení widgetu hodin"
+
+#: ../qml/widgets/clock/Settings.qml:59
+msgid "Dial with digit"
+msgstr "Digitální číselník"
+
+#: ../qml/widgets/clock/Settings.qml:69
+msgid "Use 24h format"
+msgstr "Použít 24h formát času"
+
+#: ../qml/widgets/Event.qml:44
+msgid "Events"
+msgstr "Události"
+
+#: ../qml/widgets/Event.qml:116
+msgid "No events"
+msgstr "Žádné události"
+
+#: ../qml/widgets/event/Settings.qml:116
+msgid "Limit of event"
+msgstr "Omezení událostí"
+
+#: ../qml/widgets/event/Settings.qml:135
+msgid "By defaut 3 event"
+msgstr "Výchozí 3 události"
+
+#: ../qml/widgets/Weather.qml:23
+msgid "Please long press here to configure"
+msgstr "Pro spuštění nastavení přidržte déle"
+
+#: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
+msgid "Calm"
+msgstr "Klid"
+
+#: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
+msgid "Light Air"
+msgstr "Slabý vítr"
+
+#: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
+msgid "Light Breeze"
+msgstr "Slabý vánek"
+
+#: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
+msgid "Gentle Breeze"
+msgstr "Jemný vánek"
+
+#: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
+msgid "Moderate Breeze"
+msgstr "Střední vánek"
+
+#: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
+msgid "Fresh Breeze"
+msgstr "Čerstvý vánek"
+
+#: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
+msgid "Strong Breeze"
+msgstr "Silný vánek"
+
+#: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
+msgid "Near Gale"
+msgstr "Skoro vichřice"
+
+#: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
+msgid "Gale"
+msgstr "Vichřice"
+
+#: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
+msgid "Severe Gale"
+msgstr "Drsná vichřice"
+
+#: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
+msgid "Strong storm"
+msgstr "Velká bouře"
+
+#: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
+msgid "Violent Storm"
+msgstr "Prudká bouře"
+
+#: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
+msgid "Hurricane"
+msgstr "Hurikán"
+
+#: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
+#: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
+#: ../qml/widgets/Weather.qml:241 ../qml/widgets/Weather.qml:243
+#: ../qml/widgets/Weather.qml:245 ../qml/widgets/Weather.qml:247
+#: ../qml/widgets/Weather.qml:249 ../qml/widgets/Weather.qml:251
+#: ../qml/widgets/Weather.qml:253 ../qml/widgets/Weather.qml:255
+#: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
+#: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
+msgid "of"
+msgstr "z"
+
+#: ../qml/widgets/Weather.qml:233
+msgid "North"
+msgstr "Sever"
+
+#: ../qml/widgets/Weather.qml:235
+msgid "North-Northeast"
+msgstr "Severo-Severovýchod"
+
+#: ../qml/widgets/Weather.qml:237
+msgid "Northeast"
+msgstr "Severovýchod"
+
+#: ../qml/widgets/Weather.qml:239
+msgid "East-Northeast"
+msgstr "Východ-Severovýchod"
+
+#: ../qml/widgets/Weather.qml:241
+msgid "East"
+msgstr "Východ"
+
+#: ../qml/widgets/Weather.qml:243
+msgid "East-Southeast"
+msgstr "Východ-Jihovýchod"
+
+#: ../qml/widgets/Weather.qml:245
+msgid "Southeast"
+msgstr "Jihovýchod"
+
+#: ../qml/widgets/Weather.qml:247
+msgid "South-Southeast"
+msgstr "Jih-Jihovýchod"
+
+#: ../qml/widgets/Weather.qml:249
+msgid "South"
+msgstr "Jih"
+
+#: ../qml/widgets/Weather.qml:251
+msgid "South-Southwest"
+msgstr "Jih-Jihozápad"
+
+#: ../qml/widgets/Weather.qml:253
+msgid "Southwest"
+msgstr "Jihozápad"
+
+#: ../qml/widgets/Weather.qml:255
+msgid "West-Southwest"
+msgstr "Západ-Jihozápad"
+
+#: ../qml/widgets/Weather.qml:257
+msgid "West"
+msgstr "Západ"
+
+#: ../qml/widgets/Weather.qml:259
+msgid "West-Northwest"
+msgstr "Západ-Severozápad"
+
+#: ../qml/widgets/Weather.qml:261
+msgid "Northwest"
+msgstr "Severozápad"
+
+#: ../qml/widgets/Weather.qml:263
+msgid "North-Northwest"
+msgstr "Severo-Severozápad"
+
+#: ../qml/widgets/Weather.qml:275
+msgid "humidity"
+msgstr "vlhkost"
+
+#: ../qml/Pagemanagement.qml:17
+msgid "Page management"
+msgstr "Správa stránky"
+
+#: ../qml/Pagemanagement.qml:51
+msgid "Choose a page"
+msgstr "Vybrat stranu"
+
+#: launchermodular.desktop.in.h:1
+msgid "Launcher modular"
+msgstr "Launcher modular"

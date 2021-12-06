@@ -1,0 +1,584 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Launcher Modular\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 11:46+0000\n"
+"PO-Revision-Date: 2020-05-22 16:22+0200\n"
+"Last-Translator: Lejeune Jimmy <lejeunejimmy@gmail.com>\n"
+"Language-Team: French <https://translate-ut.org/projects/launcher-modular/"
+"translate/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2019-09-07 11:36+0000\n"
+
+#: ../qml/widgets/Alarm.qml:31
+msgid "Alarms"
+msgstr "Alarmes"
+
+#: ../qml/widgets/Alarm.qml:42
+msgid "No active alarm"
+msgstr "Pas d'alarme activée"
+
+#: ../qml/widgets/Alarm.qml:58
+msgid "at"
+msgstr "à"
+
+#: ../qml/widgets/clock/Settings.qml:15
+msgid "Settings Widget Clock"
+msgstr "Paramètres du Widget « Horloge »"
+
+#: ../qml/widgets/clock/Settings.qml:59
+msgid "Dial with digit"
+msgstr "Cadran avec chiffres"
+
+#: ../qml/widgets/clock/Settings.qml:69
+msgid "Use 24h format"
+msgstr "Utiliser le format 24 h"
+
+#: ../qml/widgets/SearchContact.qml:36
+msgid "Search Contacts"
+msgstr "Rechercher des contacts"
+
+#: ../qml/widgets/ListApps.qml:32 ../qml/pages/Home.qml:286
+msgid "Installed Apps"
+msgstr "Applications installées"
+
+#: ../qml/widgets/ListApps.qml:137 ../qml/widgets/FavoriteApp.qml:146
+#: ../qml/widgets/FavoriteAppBACK.qml:126 ../qml/pages/Home.qml:399
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: ../qml/widgets/ListApps.qml:161 ../qml/widgets/FavoriteApp.qml:169
+#: ../qml/widgets/FavoriteAppBACK.qml:150 ../qml/Main.qml:722
+#: ../qml/Pagemanagement.qml:137 ../qml/pages/Home.qml:437
+#: ../qml/pages/home/Settings.qml:91 ../qml/pages/home/SettingsBACK.qml:99
+#: ../qml/Pagemanagementback.qml:128
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../qml/widgets/Lastmessage.qml:38
+msgid "Last Message"
+msgstr "Dernier message"
+
+#: ../qml/widgets/Lastmessage.qml:58
+msgid "No recent messages"
+msgstr "Aucun message récent"
+
+#: ../qml/widgets/lastmessage/Settings.qml:15
+#: ../qml/widgets/lastcall/Settings.qml:15 ../qml/widgets/event/Settings.qml:15
+#: ../qml/widgets/favoritecontact/Settings.qml:14
+msgid "Settings Widget"
+msgstr "Paramètres du Widget"
+
+#: ../qml/widgets/lastmessage/Settings.qml:56
+#: ../qml/widgets/lastcall/Settings.qml:57
+#: ../qml/widgets/favoritecontact/Settings.qml:57 ../qml/Settings.qml:91
+msgid "Generals"
+msgstr "Généraux"
+
+#: ../qml/widgets/lastmessage/Settings.qml:61
+msgid "View a summary"
+msgstr "Voir un aperçu"
+
+#: ../qml/widgets/lastmessage/Settings.qml:70
+#: ../qml/widgets/lastcall/Settings.qml:61
+msgid "Nothing"
+msgstr "Rien"
+
+#: ../qml/widgets/lastmessage/Settings.qml:70
+#: ../qml/widgets/lastcall/Settings.qml:61
+msgid "No action"
+msgstr "Aucune action"
+
+#: ../qml/widgets/lastmessage/Settings.qml:71
+#: ../qml/widgets/lastcall/Settings.qml:62
+msgid "Default"
+msgstr "Défaut"
+
+#: ../qml/widgets/lastmessage/Settings.qml:71
+msgid "Open the application"
+msgstr "Ouvrir l'application"
+
+#: ../qml/widgets/lastmessage/Settings.qml:72
+msgid "Open Message"
+msgstr "Ouvrir le message"
+
+#: ../qml/widgets/lastmessage/Settings.qml:72
+msgid "Open the application with message"
+msgstr "Ouvrir l'application avec message"
+
+#: ../qml/widgets/lastmessage/Settings.qml:98
+#: ../qml/widgets/lastcall/Settings.qml:88
+#: ../qml/widgets/favoritecontact/Settings.qml:87
+msgid "When clicked : "
+msgstr "Lorsque cliqué : "
+
+#: ../qml/widgets/lastcall/Settings.qml:62
+#: ../qml/widgets/favoritecontact/Settings.qml:61
+msgid "Open the dialer"
+msgstr "Ouvrir"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Call"
+msgstr "Appeler"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Open the dialer with number"
+msgstr "Composer dans l'application « Téléphone »"
+
+#: ../qml/widgets/event/Settings.qml:72 ../qml/pages/calendar/Settings.qml:70
+msgid "Limit of days"
+msgstr "Limite de jours"
+
+#: ../qml/widgets/event/Settings.qml:91 ../qml/pages/calendar/Settings.qml:89
+msgid "By defaut 60 days"
+msgstr "Par défaut 60 jours"
+
+#: ../qml/widgets/event/Settings.qml:116
+msgid "Limit of event"
+msgstr "Limite d'événements"
+
+#: ../qml/widgets/event/Settings.qml:135
+msgid "By defaut 3 event"
+msgstr "3 événements par défaut"
+
+#: ../qml/widgets/Event.qml:44
+msgid "Events"
+msgstr "Événements"
+
+#: ../qml/widgets/Event.qml:102
+msgid "No events"
+msgstr "Aucun événement"
+
+#: ../qml/widgets/Lastcall.qml:36
+msgid "Last Call"
+msgstr "Dernier appel"
+
+#: ../qml/widgets/Lastcall.qml:57
+msgid "No recent calls"
+msgstr "Aucun récent appel"
+
+#: ../qml/widgets/FavoriteApp.qml:42 ../qml/widgets/FavoriteAppBACK.qml:49
+msgid "Favorite Apps"
+msgstr "Applications favorites"
+
+#: ../qml/widgets/FavoriteContact.qml:33
+msgid "Favorite Contacts"
+msgstr "Contacts favoris"
+
+#: ../qml/widgets/weather/Settings.qml:14
+msgid "Settings Widget Weather"
+msgstr "Paramètre du Widget « Météo »"
+
+#: ../qml/widgets/weather/Settings.qml:66
+msgid "Api Key"
+msgstr "Clé API"
+
+#: ../qml/widgets/weather/Settings.qml:85
+msgid "Api openweathermap"
+msgstr "API d'OpenWeatherMap"
+
+#: ../qml/widgets/weather/Settings.qml:97
+msgid "Click to signup for an API key"
+msgstr "Cliquez pour vous inscrire et obtenir une clé API"
+
+#: ../qml/widgets/weather/Settings.qml:117
+msgid "City name"
+msgstr "Nom de la ville"
+
+#: ../qml/widgets/weather/Settings.qml:136
+msgid "or"
+msgstr "ou"
+
+#: ../qml/widgets/Weather.qml:23
+msgid "Please long press here to configure"
+msgstr "Veuillez appuyer longuement pour configurer"
+
+#: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
+msgid "Calm"
+msgstr "Calme"
+
+#: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
+msgid "Light Air"
+msgstr "Très légère brise"
+
+#: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
+msgid "Light Breeze"
+msgstr "Légère brise"
+
+#: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
+msgid "Gentle Breeze"
+msgstr "Petite brise"
+
+#: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
+msgid "Moderate Breeze"
+msgstr "Brise modérée"
+
+#: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
+msgid "Fresh Breeze"
+msgstr "Brise fraîche"
+
+#: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
+msgid "Strong Breeze"
+msgstr "Forte brise"
+
+#: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
+msgid "Near Gale"
+msgstr "Fortes bourrasques"
+
+#: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
+msgid "Gale"
+msgstr "Vent violent"
+
+#: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
+msgid "Severe Gale"
+msgstr "Vent très violent"
+
+#: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
+msgid "Strong storm"
+msgstr "Forte tempête"
+
+#: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
+msgid "Violent Storm"
+msgstr "Violente tempête"
+
+#: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
+msgid "Hurricane"
+msgstr "Ouragan"
+
+#: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
+#: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
+#: ../qml/widgets/Weather.qml:241 ../qml/widgets/Weather.qml:243
+#: ../qml/widgets/Weather.qml:245 ../qml/widgets/Weather.qml:247
+#: ../qml/widgets/Weather.qml:249 ../qml/widgets/Weather.qml:251
+#: ../qml/widgets/Weather.qml:253 ../qml/widgets/Weather.qml:255
+#: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
+#: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
+msgid "of"
+msgstr "de"
+
+#: ../qml/widgets/Weather.qml:233
+msgid "North"
+msgstr "Nord"
+
+#: ../qml/widgets/Weather.qml:235
+msgid "North-Northeast"
+msgstr "Nord-Nord-Est"
+
+#: ../qml/widgets/Weather.qml:237
+msgid "Northeast"
+msgstr "Nord-Est"
+
+#: ../qml/widgets/Weather.qml:239
+msgid "East-Northeast"
+msgstr "Est-Nord-Est"
+
+#: ../qml/widgets/Weather.qml:241
+msgid "East"
+msgstr "Est"
+
+#: ../qml/widgets/Weather.qml:243
+msgid "East-Southeast"
+msgstr "Est-Sud-Sst"
+
+#: ../qml/widgets/Weather.qml:245
+msgid "Southeast"
+msgstr "Sud-Est"
+
+#: ../qml/widgets/Weather.qml:247
+msgid "South-Southeast"
+msgstr "Sud-Sud-Est"
+
+#: ../qml/widgets/Weather.qml:249
+msgid "South"
+msgstr "Sud"
+
+#: ../qml/widgets/Weather.qml:251
+msgid "South-Southwest"
+msgstr "Sud-Sud-Ouest"
+
+#: ../qml/widgets/Weather.qml:253
+msgid "Southwest"
+msgstr "Sud-Ouest"
+
+#: ../qml/widgets/Weather.qml:255
+msgid "West-Southwest"
+msgstr "Ouest-Sud-Ouest"
+
+#: ../qml/widgets/Weather.qml:257
+msgid "West"
+msgstr "Ouest"
+
+#: ../qml/widgets/Weather.qml:259
+msgid "West-Northwest"
+msgstr "Ouest-Nord-Ouest"
+
+#: ../qml/widgets/Weather.qml:261
+msgid "Northwest"
+msgstr "Nord-Ouest"
+
+#: ../qml/widgets/Weather.qml:263
+msgid "North-Northwest"
+msgstr "Nord-Nord-Ouest"
+
+#: ../qml/widgets/Weather.qml:275
+msgid "humidity"
+msgstr "d'humidité"
+
+#: ../qml/widgets/favoritecontact/Settings.qml:61
+msgid "Dialer"
+msgstr "Cadran téléphonique"
+
+#: ../qml/widgets/favoritecontact/Settings.qml:62
+msgid "Linphone"
+msgstr "Linphone"
+
+#: ../qml/widgets/favoritecontact/Settings.qml:62
+msgid "Open Linphone"
+msgstr "Ouvrir Linphone"
+
+#: ../qml/Main.qml:473
+msgid "Add custom icon"
+msgstr "Ajouter une icône personnalisée"
+
+#: ../qml/Main.qml:500
+msgid "Manage page"
+msgstr "Gérer la page"
+
+#: ../qml/Main.qml:527
+msgid "Configure Launcher"
+msgstr "Configurer le lanceur"
+
+#: ../qml/Main.qml:616
+msgid "SVG or PNG icon. 1:1 ratio"
+msgstr "Icône SVG ou PNG au ratio 1:1"
+
+#: ../qml/Main.qml:629
+msgid "The <b>title</b> to be shown in the app list"
+msgstr "Le <b>titre</b> à afficher dans la liste des applications"
+
+#: ../qml/Main.qml:634
+msgid "Website"
+msgstr "Site internet"
+
+#: ../qml/Main.qml:634
+msgid "Open the browser with the url"
+msgstr "Ouvrir le lien avec le navigateur"
+
+#: ../qml/Main.qml:635
+msgid "Terminal command"
+msgstr "Commande de terminal"
+
+#: ../qml/Main.qml:635
+msgid "Launch an order in a terminal"
+msgstr "Lancer un ordre dans un terminal"
+
+#: ../qml/Main.qml:636
+msgid "Launch app"
+msgstr "Lancer l'application"
+
+#: ../qml/Main.qml:636
+msgid "Launch an app"
+msgstr "Lancer une application"
+
+#: ../qml/Main.qml:659 ../qml/Main.qml:661 ../qml/Main.qml:663
+msgid "<b>Action</b> exemple: "
+msgstr "Exemple d'<b>action</b> : "
+
+#: ../qml/Main.qml:677
+msgid "Create icon"
+msgstr "Créer une icône"
+
+#: ../qml/ImportPage.qml:13
+msgid "Choose"
+msgstr "Choisir"
+
+#: ../qml/Settings.qml:18
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../qml/Settings.qml:96
+msgid "Dark background"
+msgstr "Arrière-plan sombre"
+
+#: ../qml/Settings.qml:118
+msgid "Background blur effect"
+msgstr "Effet de flou de l'arrière-plan"
+
+#: ../qml/Settings.qml:126
+msgid "Standard"
+msgstr "Standard"
+
+#: ../qml/Settings.qml:126
+msgid "Style by default"
+msgstr "Style par défaut"
+
+#: ../qml/Settings.qml:127
+msgid "Rounded"
+msgstr "Arrondi"
+
+#: ../qml/Settings.qml:127
+msgid "Icons rounded"
+msgstr "Icônes arrondies"
+
+#: ../qml/Settings.qml:128
+msgid "None"
+msgstr "Aucun"
+
+#: ../qml/Settings.qml:128
+msgid "Icons without style"
+msgstr "Icônes sans style"
+
+#: ../qml/Settings.qml:153
+msgid "Style Icons : "
+msgstr "Style d'icones "
+
+#: ../qml/Settings.qml:179
+msgid "Other"
+msgstr "Autre"
+
+#: ../qml/Settings.qml:185
+msgid "Restore dash launcher"
+msgstr "Restaurer le lanceur"
+
+#: ../qml/Settings.qml:185
+msgid "Install Launcher Modular by default"
+msgstr "Installer Lanceur Modulaire par défaut"
+
+#: ../qml/Settings.qml:203
+msgid "You will need to restart after installing or restore"
+msgstr "Vous devrez redémarrer après une installation ou une restauration"
+
+#: ../qml/Settings.qml:210
+msgid "Replace standard dash (beta)"
+msgstr "Remplacer le lanceur standard (béta)"
+
+#: ../qml/Settings.qml:217
+msgid "If you can not restore click here"
+msgstr "Si vous n'arrivez pas à restaurer, cliquez ici"
+
+#: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
+msgid "Page management"
+msgstr "Gestion des pages"
+
+#: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
+msgid "Choose a page"
+msgstr "Sélectionner une page"
+
+#: ../qml/pages/Cinema.qml:52
+msgid "Featured"
+msgstr "Actuellement en salle"
+
+#: ../qml/pages/Cinema.qml:186
+msgid "Coming soon"
+msgstr "Bientôt en salle"
+
+#: ../qml/pages/news/Share.qml:7
+msgid "Send URL To..."
+msgstr "Envoyer le lien vers..."
+
+#: ../qml/pages/news/Settings.qml:15 ../qml/pages/picture/Settings.qml:12
+#: ../qml/pages/cinema/Settings.qml:12 ../qml/pages/cryptoprice/Settings.qml:17
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
+#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/todo/Settings.qml:12
+msgid "Settings Page"
+msgstr "Paramètres de la page"
+
+#: ../qml/pages/news/Settings.qml:67
+msgid "Management of news sources"
+msgstr "Gestion des sources d'actualités"
+
+#: ../qml/pages/news/Settings.qml:77
+msgid "Transparent background"
+msgstr "Arrière-plan transparent"
+
+#: ../qml/pages/news/Settings.qml:97
+msgid "Filter (XPath)"
+msgstr "Filtre (XPath)"
+
+#: ../qml/pages/News.qml:202
+msgid "by"
+msgstr "par"
+
+#: ../qml/pages/picture/Settings.qml:58
+msgid "Image path"
+msgstr "Chemin de l'image"
+
+#: ../qml/pages/cryptoprice/Settings.qml:52
+msgid "Automatic Updates every 5 seconds?"
+msgstr "Mises à jour automatiques toutes les 5 secondes ?"
+
+#: ../qml/pages/cryptoprice/Settings.qml:62
+msgid "Your currency?"
+msgstr "Votre devise ?"
+
+#: ../qml/pages/calendar/Settings.qml:51
+msgid "General"
+msgstr "Général"
+
+#: ../qml/pages/Home.qml:159
+msgid "Search your phone and online sources"
+msgstr "Rechercher dans votre téléphone et en ligne"
+
+#: ../qml/pages/Home.qml:399
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../qml/pages/home/Settings.qml:120 ../qml/pages/home/SettingsBACK.qml:128
+msgid "Widgets"
+msgstr "Widgets"
+
+#: ../qml/pages/home/Settings.qml:125 ../qml/pages/home/SettingsBACK.qml:133
+msgid "show clock"
+msgstr "Afficher l'horloge"
+
+#: ../qml/pages/home/Settings.qml:134 ../qml/pages/home/SettingsBACK.qml:142
+msgid "show weather"
+msgstr "Afficher la météo"
+
+#: ../qml/pages/home/Settings.qml:144 ../qml/pages/home/SettingsBACK.qml:152
+msgid "show alarm"
+msgstr "Afficher les alarmes"
+
+#: ../qml/pages/home/Settings.qml:153 ../qml/pages/home/SettingsBACK.qml:161
+msgid "show last call"
+msgstr "Afficher le dernier appel"
+
+#: ../qml/pages/home/Settings.qml:162 ../qml/pages/home/SettingsBACK.qml:170
+msgid "show last message"
+msgstr "Afficher le dernier message"
+
+#: ../qml/pages/home/Settings.qml:171 ../qml/pages/home/SettingsBACK.qml:179
+msgid "show event"
+msgstr "Afficher les événements"
+
+#: ../qml/pages/home/Settings.qml:183 ../qml/pages/home/SettingsBACK.qml:191
+msgid "Favorite apps management"
+msgstr "Gestion des applications favorites"
+
+#: ../qml/pages/home/Settings.qml:216 ../qml/pages/home/SettingsBACK.qml:226
+#: ../qml/pages/Todo.qml:119 ../qml/Pagemanagementback.qml:182
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../qml/pages/Calendar.qml:103
+msgid "Agenda"
+msgstr "Agenda"
+
+#: ../qml/pages/Todo.qml:64
+msgid "new todo"
+msgstr "Nouvelle liste de choses à faire"
+
+#: ../qml/About.qml:10
+msgid "About"
+msgstr "À propos"
+
+#: launchermodular.desktop.in.h:1
+msgid "Launcher modular"
+msgstr "Lanceur Modulaire"
+
+#~ msgid "Install this Launcher"
+#~ msgstr "Installer ce lanceur"

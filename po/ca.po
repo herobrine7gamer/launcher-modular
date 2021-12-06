@@ -1,0 +1,455 @@
+# Catalan translation for launchermodular
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
+# This file is distributed under the same license as the launchermodular package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: launchermodular\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-07-28 10:53+0000\n"
+"PO-Revision-Date: 2019-07-10 12:10+0000\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-09-07 11:36+0000\n"
+"X-Generator: Launchpad (build 19044)\n"
+
+#: ../qml/Main.qml:430
+msgid "Manage page"
+msgstr "Gestiona la pàgina"
+
+#: ../qml/Main.qml:457
+msgid "Configure Launcher"
+msgstr "Configure el llançador"
+
+#: ../qml/pages/Todo.qml:64
+msgid "new todo"
+msgstr "nova tasca"
+
+#: ../qml/pages/Todo.qml:116 ../qml/pages/home/Settings.qml:165
+#: ../qml/Pagemanagement.qml:130
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: ../qml/pages/Calendar.qml:103
+msgid "Agenda"
+msgstr "Agenda"
+
+#: ../qml/pages/Home.qml:153
+msgid "Search your phone and online sources"
+msgstr "Cerca al telèfon i fonts en línia"
+
+#: ../qml/pages/Home.qml:268
+msgid "Installed Apps"
+msgstr "Aplicacions instal·lades"
+
+#: ../qml/pages/Home.qml:377
+msgid "Uninstall"
+msgstr "Desinstal·la"
+
+#: ../qml/pages/Home.qml:401 ../qml/pages/home/Settings.qml:99
+#: ../qml/Pagemanagement.qml:85
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: ../qml/pages/News.qml:201
+msgid "by"
+msgstr "per"
+
+#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/cinema/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
+#: ../qml/pages/news/Settings.qml:15 ../qml/pages/home/Settings.qml:15
+msgid "Settings Page"
+msgstr "Pàgina de configuració"
+
+#: ../qml/pages/Cinema.qml:52
+msgid "Featured"
+msgstr "Destacat"
+
+#: ../qml/pages/Cinema.qml:186
+msgid "Coming soon"
+msgstr "Ben aviat"
+
+#: ../qml/pages/calendar/Settings.qml:51
+msgid "General"
+msgstr "General"
+
+#: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
+msgid "Limit of days"
+msgstr "Límit de dies"
+
+#: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
+msgid "By defaut 60 days"
+msgstr "Per defecte 60 dies"
+
+#: ../qml/pages/news/Settings.qml:67
+msgid "Management of news sources"
+msgstr "Gestió de noves fonts"
+
+#: ../qml/pages/news/Settings.qml:77
+msgid "Transparent background"
+msgstr ""
+
+#: ../qml/pages/news/Settings.qml:97
+msgid "Filter (XPath)"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:128
+msgid "Favorite apps management"
+msgstr "Gestió de les aplicacions favorites"
+
+#: ../qml/About.qml:10
+msgid "About"
+msgstr "Quant a"
+
+#: ../qml/Settings.qml:17
+msgid "Settings"
+msgstr "Configuració"
+
+#: ../qml/Settings.qml:89 ../qml/widgets/lastmessage/Settings.qml:56
+#: ../qml/widgets/lastcall/Settings.qml:57
+msgid "Generals"
+msgstr "Generals"
+
+#: ../qml/Settings.qml:94
+msgid "Dark background"
+msgstr "Fons fosc"
+
+#: ../qml/Settings.qml:116
+msgid "Background blur effect"
+msgstr "Fons amb efecte de desenfocament"
+
+#: ../qml/Settings.qml:124
+msgid "Standard"
+msgstr "Estàndard"
+
+#: ../qml/Settings.qml:124
+msgid "Style by default"
+msgstr "Estil predeterminat"
+
+#: ../qml/Settings.qml:125
+msgid "Rounded"
+msgstr "Arrodonida"
+
+#: ../qml/Settings.qml:125
+msgid "Icons rounded"
+msgstr "Icones arrodonides"
+
+#: ../qml/Settings.qml:126
+msgid "None"
+msgstr "Cap"
+
+#: ../qml/Settings.qml:126
+msgid "Icons without style"
+msgstr "Icones sense estil"
+
+#: ../qml/Settings.qml:151
+msgid "Style Icons : "
+msgstr "Icones d'estil: "
+
+#: ../qml/Settings.qml:163
+msgid "Other"
+msgstr "Un altre"
+
+#: ../qml/Settings.qml:177
+msgid "Restore dash launcher"
+msgstr "Restaura el llançador del quadre d'aplicacions"
+
+#: ../qml/Settings.qml:185
+msgid "Install this Launcher"
+msgstr "Instal·la aquest llançador"
+
+#: ../qml/widgets/lastmessage/Settings.qml:15
+#: ../qml/widgets/lastcall/Settings.qml:15 ../qml/widgets/event/Settings.qml:15
+msgid "Settings Widget"
+msgstr "Estri de configuració"
+
+#: ../qml/widgets/lastmessage/Settings.qml:61
+msgid "View a summary"
+msgstr "Visualitza un resum"
+
+#: ../qml/widgets/lastmessage/Settings.qml:70
+#: ../qml/widgets/lastcall/Settings.qml:61
+msgid "Nothing"
+msgstr "Res"
+
+#: ../qml/widgets/lastmessage/Settings.qml:70
+#: ../qml/widgets/lastcall/Settings.qml:61
+msgid "No action"
+msgstr "Cap acció"
+
+#: ../qml/widgets/lastmessage/Settings.qml:71
+#: ../qml/widgets/lastcall/Settings.qml:62
+msgid "Default"
+msgstr "Predeterminat"
+
+#: ../qml/widgets/lastmessage/Settings.qml:71
+msgid "Open the application"
+msgstr ""
+
+#: ../qml/widgets/lastmessage/Settings.qml:72
+msgid "Open Message"
+msgstr ""
+
+#: ../qml/widgets/lastmessage/Settings.qml:72
+msgid "Open the application with message"
+msgstr ""
+
+#: ../qml/widgets/lastmessage/Settings.qml:98
+#: ../qml/widgets/lastcall/Settings.qml:88
+msgid "When clicked : "
+msgstr "Si es clica: "
+
+#: ../qml/widgets/SearchContact.qml:36
+msgid "Search Contacts"
+msgstr ""
+
+#: ../qml/widgets/Lastcall.qml:39
+msgid "Last Call"
+msgstr "Última trucada"
+
+#: ../qml/widgets/Lastcall.qml:59
+msgid "No recent calls"
+msgstr "Cap trucada recent"
+
+#: ../qml/widgets/FavoriteApp.qml:49
+msgid "Favorite Apps"
+msgstr "Aplicacions favorites"
+
+#: ../qml/widgets/Alarm.qml:31
+msgid "Alarms"
+msgstr "Alarmes"
+
+#: ../qml/widgets/Alarm.qml:41
+msgid "No active alarm"
+msgstr "Cap alarma activa"
+
+#: ../qml/widgets/Alarm.qml:56
+msgid "at"
+msgstr "a"
+
+#: ../qml/widgets/lastcall/Settings.qml:62
+msgid "Open the dialer"
+msgstr "Obre el marcador"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Call"
+msgstr "Trucada"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Open the dialer with number"
+msgstr "Obre el marcador amb un número"
+
+#: ../qml/widgets/weather/Settings.qml:14
+msgid "Settings Widget Weather"
+msgstr "Configuració de l'estri de temps"
+
+#: ../qml/widgets/weather/Settings.qml:66
+msgid "Api Key"
+msgstr "Clau de l'Api"
+
+#: ../qml/widgets/weather/Settings.qml:85
+msgid "Api openweathermap"
+msgstr "Api de l'openweathermap"
+
+#: ../qml/widgets/weather/Settings.qml:97
+msgid "Click to signup for an API key"
+msgstr "Cliqueu per registrar-vos per a una clau d'API"
+
+#: ../qml/widgets/weather/Settings.qml:117
+msgid "City name"
+msgstr "Nom de la ciutat"
+
+#: ../qml/widgets/weather/Settings.qml:136
+msgid "or"
+msgstr "o"
+
+#: ../qml/widgets/FavoriteContact.qml:35
+msgid "Favorite Contacts"
+msgstr ""
+
+#: ../qml/widgets/Lastmessage.qml:40
+msgid "Last Message"
+msgstr "Últim missatge"
+
+#: ../qml/widgets/Lastmessage.qml:59
+msgid "No recent messages"
+msgstr "Cap missatge recent"
+
+#: ../qml/widgets/clock/Settings.qml:15
+msgid "Settings Widget Clock"
+msgstr "Configuració de l'estri del rellotge"
+
+#: ../qml/widgets/clock/Settings.qml:59
+msgid "Dial with digit"
+msgstr "Marca amb dígit"
+
+#: ../qml/widgets/clock/Settings.qml:69
+msgid "Use 24h format"
+msgstr "Usa el format de 24h"
+
+#: ../qml/widgets/Event.qml:44
+msgid "Events"
+msgstr "Esdeveniments"
+
+#: ../qml/widgets/Event.qml:116
+msgid "No events"
+msgstr "No hi ha esdeveniments"
+
+#: ../qml/widgets/event/Settings.qml:116
+msgid "Limit of event"
+msgstr ""
+
+#: ../qml/widgets/event/Settings.qml:135
+msgid "By defaut 3 event"
+msgstr ""
+
+#: ../qml/widgets/Weather.qml:23
+msgid "Please long press here to configure"
+msgstr "Si us plau manteniu premut per configurar"
+
+#: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
+msgid "Calm"
+msgstr "Calmat"
+
+#: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
+msgid "Light Air"
+msgstr "Marinada"
+
+#: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
+msgid "Light Breeze"
+msgstr "Brisa lleugera"
+
+#: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
+msgid "Gentle Breeze"
+msgstr "Brisa agradable"
+
+#: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
+msgid "Moderate Breeze"
+msgstr "Brisa moderada"
+
+#: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
+msgid "Fresh Breeze"
+msgstr "Brisa fresca"
+
+#: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
+msgid "Strong Breeze"
+msgstr "Brisa fota"
+
+#: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
+msgid "Near Gale"
+msgstr "Vent moderat"
+
+#: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
+msgid "Gale"
+msgstr "Vent fort"
+
+#: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
+msgid "Severe Gale"
+msgstr "Vent sever"
+
+#: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
+msgid "Strong storm"
+msgstr "Tempesta forta"
+
+#: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
+msgid "Violent Storm"
+msgstr "Tempesta violenta"
+
+#: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
+msgid "Hurricane"
+msgstr "Huracà"
+
+#: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
+#: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
+#: ../qml/widgets/Weather.qml:241 ../qml/widgets/Weather.qml:243
+#: ../qml/widgets/Weather.qml:245 ../qml/widgets/Weather.qml:247
+#: ../qml/widgets/Weather.qml:249 ../qml/widgets/Weather.qml:251
+#: ../qml/widgets/Weather.qml:253 ../qml/widgets/Weather.qml:255
+#: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
+#: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
+msgid "of"
+msgstr "de"
+
+#: ../qml/widgets/Weather.qml:233
+msgid "North"
+msgstr "Nord"
+
+#: ../qml/widgets/Weather.qml:235
+msgid "North-Northeast"
+msgstr "Nord-Gregal"
+
+#: ../qml/widgets/Weather.qml:237
+msgid "Northeast"
+msgstr "Nord-est"
+
+#: ../qml/widgets/Weather.qml:239
+msgid "East-Northeast"
+msgstr "Est-Gregal"
+
+#: ../qml/widgets/Weather.qml:241
+msgid "East"
+msgstr "Est"
+
+#: ../qml/widgets/Weather.qml:243
+msgid "East-Southeast"
+msgstr "Est-Sud-est"
+
+#: ../qml/widgets/Weather.qml:245
+msgid "Southeast"
+msgstr "Sud-est"
+
+#: ../qml/widgets/Weather.qml:247
+msgid "South-Southeast"
+msgstr "Sud-Sud-est"
+
+#: ../qml/widgets/Weather.qml:249
+msgid "South"
+msgstr "Sud"
+
+#: ../qml/widgets/Weather.qml:251
+msgid "South-Southwest"
+msgstr "Sud-Sud-oest"
+
+#: ../qml/widgets/Weather.qml:253
+msgid "Southwest"
+msgstr "Sud-oest"
+
+#: ../qml/widgets/Weather.qml:255
+msgid "West-Southwest"
+msgstr "Oest-Sud-oest"
+
+#: ../qml/widgets/Weather.qml:257
+msgid "West"
+msgstr "Oest"
+
+#: ../qml/widgets/Weather.qml:259
+msgid "West-Northwest"
+msgstr "Oest-Nord-oest"
+
+#: ../qml/widgets/Weather.qml:261
+msgid "Northwest"
+msgstr "Nord-oest"
+
+#: ../qml/widgets/Weather.qml:263
+msgid "North-Northwest"
+msgstr "Nord-Nord-oest"
+
+#: ../qml/widgets/Weather.qml:275
+msgid "humidity"
+msgstr "humitat"
+
+#: ../qml/Pagemanagement.qml:17
+msgid "Page management"
+msgstr "Gestió de la pàgina"
+
+#: ../qml/Pagemanagement.qml:51
+msgid "Choose a page"
+msgstr "Escolliu una pàgina"
+
+#: launchermodular.desktop.in.h:1
+msgid "Launcher modular"
+msgstr "Llançador modular"
