@@ -2,10 +2,6 @@
 
 A launcher modular for ubuntu touch
 
-![home](https://i0.wp.com/ubuntu-touch-fr.org/wp-content/uploads/2019/05/screenshot20190410_150836013.png?resize=169%2C300&ssl=1)
-![Agenda](https://i2.wp.com/ubuntu-touch-fr.org/wp-content/uploads/2019/05/screenshot20190410_150829986.png?resize=169%2C300&ssl=1)
-![home](https://i1.wp.com/ubuntu-touch-fr.org/wp-content/uploads/2019/05/screenshot20190410_150821342.png?resize=169%2C300&ssl=1)
-
 ### How to build
 
 To build Launcher Modular for Ubuntu Touch devices you do need clickable. Follow install instructions at its repo [here](https://gitlab.com/clickable/clickable). For more information and help visit the [docs](ble.bhdouglass.com/en/latest/getting-started.html).
