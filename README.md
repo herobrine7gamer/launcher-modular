@@ -4,7 +4,7 @@ A launcher modular for ubuntu touch
 
 ### How to build
 
-To build Launcher Modular for Ubuntu Touch devices you do need clickable. Follow install instructions at its repo [here](https://gitlab.com/clickable/clickable). For more information and help visit the [docs](ble.bhdouglass.com/en/latest/getting-started.html).
+To build Launcher Modular for Ubuntu Touch devices you do need clickable. Follow install instructions at its repo [here](https://gitlab.com/clickable/clickable). 
 Once clickable is installed you are ready to go.
 
 1. Fork [Launcher Modular at GitHub](https://github.com/ruditimmer/launcher-modular) into your own namespace. You may need to open an accout with gitlab if not already done.
