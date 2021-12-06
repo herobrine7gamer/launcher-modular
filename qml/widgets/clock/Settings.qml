@@ -59,20 +59,7 @@ Rectangle {
                         checked: if (launchermodular.settings.backgroundAnalogHours == "num"){ true; }else{ false;}
                         onClicked: if (launchermodular.settings.backgroundAnalogHours == "num"){ launchermodular.settings.backgroundAnalogHours = ""; }else{ launchermodular.settings.backgroundAnalogHours = "num";}
                     }
-                }
-            
-                ListItem.Standard {
-                    showDivider: false
-                    text: "<font color=\"#ffffff\">"+i18n.tr("Use 24h format")+"</font>"
-                    control: Switch {
-                        id: format24Switch
-                        checked: if (launchermodular.settings.formatHours == "24h"){ true; }else{ false;}
-                        onClicked: if (launchermodular.settings.formatHours == "24h"){ launchermodular.settings.formatHours = "12h"; }else{ launchermodular.settings.formatHours = "24h";}
-                    }
-                }            
-            
-            
-
+                }                      
         } // column
     } //flickable
  } //rectangle settings
