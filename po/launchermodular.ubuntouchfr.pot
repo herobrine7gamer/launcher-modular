@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-07 05:33+0000\n"
+"POT-Creation-Date: 2021-12-07 06:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -609,7 +609,7 @@ msgid "You will need to restart after installing or restore"
 msgstr ""
 
 #: ../qml/Settings.qml:193
-msgid "Replace standard dash (beta)"
+msgid "Replace standard dash"
 msgstr ""
 
 #: ../qml/Settings.qml:200
