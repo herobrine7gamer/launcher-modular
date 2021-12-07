@@ -190,7 +190,7 @@ Rectangle {
          
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
-            text: i18n.tr('Replace standard dash (beta)')
+            text: i18n.tr('Replace standard dash')
             color: UbuntuColors.red
    
                 onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/patchdash.sh ; restart unity8")
