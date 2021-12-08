@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "v0.1.12"
+    property string appVersion : "0.1.12"
 
 
     function getCustomIconArray() {

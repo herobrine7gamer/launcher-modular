@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-08 05:13+0000\n"
+"POT-Creation-Date: 2021-12-08 21:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,10 +78,6 @@ msgstr ""
 
 #: ../qml/About.qml:10
 msgid "About"
-msgstr ""
-
-#: ../qml/About.qml:67
-msgid "Version: "
 msgstr ""
 
 #: ../qml/About.qml:84
@@ -423,11 +419,11 @@ msgstr ""
 msgid "Analog clock with digit"
 msgstr ""
 
-#: ../qml/widgets/Event.qml:44
+#: ../qml/widgets/Event.qml:46
 msgid "Events"
 msgstr ""
 
-#: ../qml/widgets/Event.qml:102
+#: ../qml/widgets/Event.qml:104
 msgid "No events"
 msgstr ""
 

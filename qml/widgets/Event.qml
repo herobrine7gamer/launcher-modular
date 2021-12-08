@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3
 import QtOrganizer 5.0
@@ -34,6 +34,8 @@ Item {
            id: iconEvent
             width: units.gu(2)
             height: units.gu(2)
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.horizontalCenter: parent.horizontalCenter
             name: "event"
             color: launchermodular.settings.textColor
         }
@@ -127,7 +129,7 @@ OrganizerModel {
 
                     }
               horizontalAlignment: Text.AlignRight
-              width: units.gu(6);
+              width: units.gu(4);
               color: launchermodular.settings.textColor;
               font.pointSize: units.gu(1.2);
             }

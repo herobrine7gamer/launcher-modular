@@ -64,7 +64,7 @@ Item {
             width: parent.width
             height: units.gu(4)
             Label {
-                text: i18n.tr("Version: "+launchermodular.appVersion)
+                text: ("v"+launchermodular.appVersion)
                 fontSize: "large"
                 anchors.centerIn: parent
                 color: "#ffffff"
