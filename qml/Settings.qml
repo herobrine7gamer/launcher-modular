@@ -165,7 +165,7 @@ Rectangle {
             }
         
         Button {
-            text: LauncherModularPlug.isDashSet ? i18n.tr('Restore dash launcher') : i18n.tr('Install Launcher Modular by default')
+            text: LauncherModularPlug.isDashSet ? i18n.tr('Restore standard launcher') : i18n.tr('Install Launcher Modular by default')
             color: LauncherModularPlug.isDashSet ? UbuntuColors.red : UbuntuColors.green
             anchors.horizontalCenter: parent.horizontalCenter
             onClicked: {
@@ -190,7 +190,7 @@ Rectangle {
          
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
-            text: i18n.tr('Replace standard dash')
+            text: i18n.tr('Replace standard launcher')
             color: UbuntuColors.red
    
                 onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/patchdash.sh ; restart unity8")

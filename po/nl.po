@@ -249,17 +249,21 @@ msgstr "Pictogrammen stijl : "
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:171
-msgid "Restore dash launcher"
-msgstr "Herstel dash launcher"
+#: ../qml/Settings.qml:168
+msgid "Restore standard launcher"
+msgstr "Standaard launcher herstellen"
 
-#: ../qml/Settings.qml:171
+#: ../qml/Settings.qml:168
 msgid "Install Launcher Modular by default"
 msgstr "Installeer Launcher Modular als standaard launcher"
 
 #: ../qml/Settings.qml:189
 msgid "You will need to restart after installing or restore"
 msgstr "U dient uw apparaat te herstarten na het installeren of herstellen van de launcher"
+
+#: ../qml/Settings.qml:193
+msgid "Replace standard launcher"
+msgstr "Standaard launcher vervangen"
 
 #: ../qml/Settings.qml:196
 msgid "If you can not restore click here"
