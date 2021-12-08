@@ -1,279 +1,190 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the launchermodular.ubuntouchfr package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: launchermodular.ubuntouchfr\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 13:18+0000\n"
-"PO-Revision-Date: 2020-06-03 09:44+0200\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
-"Last-Translator: Sander Klootwijk <sander.klootwijk@tutanota.com>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Launcher modular\n"
 "Language: nl\n"
 
-#: ../qml/Main.qml:470
+#: ../qml/Main.qml:475
 msgid "Add custom icon"
 msgstr "Aangepast pictogram"
 
-#: ../qml/Main.qml:497
+#: ../qml/Main.qml:502
 msgid "Manage page"
 msgstr "Beheer pagina"
 
-#: ../qml/Main.qml:524
+#: ../qml/Main.qml:529
 msgid "Configure Launcher"
 msgstr "Configureer Launcher"
 
-#: ../qml/Main.qml:613
+#: ../qml/Main.qml:618
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "SVG of PNG icoon. 1:1 ratio"
 
-#: ../qml/Main.qml:626
+#: ../qml/Main.qml:631
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "De <b>title</b> die in de lijst weergeven moet worden"
 
-#: ../qml/Main.qml:631
+#: ../qml/Main.qml:636
 msgid "Website"
 msgstr "Website"
 
-#: ../qml/Main.qml:631
+#: ../qml/Main.qml:636
 msgid "Open the browser with the url"
 msgstr "Open de browser met de url"
 
-#: ../qml/Main.qml:632
+#: ../qml/Main.qml:637
 msgid "Terminal command"
 msgstr "Terminal commando"
 
-#: ../qml/Main.qml:632
+#: ../qml/Main.qml:637
 msgid "Launch an order in a terminal"
 msgstr "Open een commando in een terminal"
 
-#: ../qml/Main.qml:633
+#: ../qml/Main.qml:638
 msgid "Launch app"
 msgstr "Open app"
 
-#: ../qml/Main.qml:633
+#: ../qml/Main.qml:638
 msgid "Launch an app"
 msgstr "Open een app"
 
-#: ../qml/Main.qml:656 ../qml/Main.qml:658 ../qml/Main.qml:660
+#: ../qml/Main.qml:661 ../qml/Main.qml:663 ../qml/Main.qml:665
 msgid "<b>Action</b> exemple: "
 msgstr "<b>Actie</b> voorbeeld: "
 
-#: ../qml/Main.qml:674
+#: ../qml/Main.qml:679
 msgid "Create icon"
 msgstr "Maak icoon"
 
-#: ../qml/Main.qml:719 ../qml/pages/Home.qml:435
+#: ../qml/Main.qml:724 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
-#: ../qml/widgets/FavoriteApp.qml:146 ../qml/widgets/FavoriteAppBACK.qml:150
-#: ../qml/widgets/ListApps.qml:161 ../qml/Pagemanagement.qml:137
-#: ../qml/Pagemanagementback.qml:128
+#: ../qml/pages/Home.qml:437 ../qml/Pagemanagementback.qml:128
 msgid "Cancel"
 msgstr "Annuleren"
-
-#: ../qml/pages/Todo.qml:64
-msgid "new todo"
-msgstr "nieuwe to-do"
-
-#: ../qml/pages/Todo.qml:119 ../qml/pages/home/SettingsBACK.qml:226
-#: ../qml/pages/home/Settings.qml:216 ../qml/Pagemanagementback.qml:182
-msgid "Delete"
-msgstr "Verwijderen"
-
-#: ../qml/pages/Calendar.qml:103
-msgid "Agenda"
-msgstr "Agenda"
-
-#: ../qml/pages/Home.qml:159
-msgid "Search your phone and online sources"
-msgstr "Uw telefoon en online bronnen doorzoeken"
-
-#: ../qml/pages/Home.qml:286 ../qml/widgets/ListApps.qml:32
-msgid "Installed Apps"
-msgstr "Geïnstalleerde apps"
-
-#: ../qml/pages/Home.qml:397 ../qml/widgets/FavoriteApp.qml:123
-#: ../qml/widgets/FavoriteAppBACK.qml:126 ../qml/widgets/ListApps.qml:137
-msgid "Uninstall"
-msgstr "Deïnstalleren"
-
-#: ../qml/pages/Home.qml:397
-msgid "Remove"
-msgstr "Verwijderen"
-
-#: ../qml/pages/News.qml:202
-msgid "by"
-msgstr "door"
-
-#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/cryptoprice/Settings.qml:17
-#: ../qml/pages/cinema/Settings.qml:12 ../qml/pages/calendar/Settings.qml:12
-#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/news/Settings.qml:15
-#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
-msgid "Settings Page"
-msgstr "Instellingen"
-
-#: ../qml/pages/cryptoprice/Settings.qml:52
-msgid "Automatic Updates every 5 seconds?"
-msgstr "Om de 5 seconden bijwerken?"
-
-#: ../qml/pages/cryptoprice/Settings.qml:62
-msgid "Your currency?"
-msgstr "Uw valuta?"
-
-#: ../qml/pages/Cinema.qml:52
-msgid "Featured"
-msgstr "Uitgelicht"
-
-#: ../qml/pages/Cinema.qml:186
-msgid "Coming soon"
-msgstr "Komt binnenkort"
-
-#: ../qml/pages/calendar/Settings.qml:51
-msgid "General"
-msgstr "Algemeen"
-
-#: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
-msgid "Limit of days"
-msgstr "Aantal dagen"
-
-#: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
-msgid "By defaut 60 days"
-msgstr "Een standaard van 60 dagen"
-
-#: ../qml/pages/news/Share.qml:7
-msgid "Send URL To..."
-msgstr "URL verzenden naar…"
-
-#: ../qml/pages/news/Settings.qml:67
-msgid "Management of news sources"
-msgstr "Beheer van nieuwsbronnen"
-
-#: ../qml/pages/news/Settings.qml:77
-msgid "Transparent background"
-msgstr "Transparante achtergrond"
-
-#: ../qml/pages/news/Settings.qml:97
-msgid "Filter (XPath)"
-msgstr "Filter (XPath)"
-
-#: ../qml/pages/home/SettingsBACK.qml:128 ../qml/pages/home/Settings.qml:120
-msgid "Widgets"
-msgstr "Widgets"
-
-#: ../qml/pages/home/SettingsBACK.qml:133 ../qml/pages/home/Settings.qml:125
-msgid "show clock"
-msgstr "toon klok"
-
-#: ../qml/pages/home/SettingsBACK.qml:142 ../qml/pages/home/Settings.qml:134
-msgid "show weather"
-msgstr "toon weer"
-
-#: ../qml/pages/home/SettingsBACK.qml:152 ../qml/pages/home/Settings.qml:144
-msgid "show alarm"
-msgstr "toon alarm"
-
-#: ../qml/pages/home/SettingsBACK.qml:161 ../qml/pages/home/Settings.qml:153
-msgid "show last call"
-msgstr "toon laatste oproep"
-
-#: ../qml/pages/home/SettingsBACK.qml:170 ../qml/pages/home/Settings.qml:162
-msgid "show last message"
-msgstr "toon laatste bericht"
-
-#: ../qml/pages/home/SettingsBACK.qml:179 ../qml/pages/home/Settings.qml:171
-msgid "show event"
-msgstr "toon gebeurtenis"
-
-#: ../qml/pages/home/SettingsBACK.qml:191 ../qml/pages/home/Settings.qml:183
-msgid "Favorite apps management"
-msgstr "Beheer favoriete apps"
 
 #: ../qml/About.qml:10
 msgid "About"
 msgstr "Over"
 
-#: ../qml/Settings.qml:18
-msgid "Settings"
-msgstr "Instellingen"
+#: ../qml/About.qml:67
+msgid "Version: "
+msgstr "Versie: "
 
-#: ../qml/Settings.qml:91 ../qml/widgets/lastmessage/Settings.qml:56
-#: ../qml/widgets/lastcall/Settings.qml:57
+#: ../qml/About.qml:84
+msgid "A launcher modular for Ubuntu Touch"
+msgstr "Een launcher modular voor Ubuntu Touch"
+
+#: ../qml/About.qml:98
+msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
+msgstr "Dit programma is vrije software: je mag het herdistribueren en/of wijzigen onder de voorwaarden van de GNU Algemene Publieke Licentie zoals gepubliceerd door de Free Software Foundation, onder versie 3 van de Licentie of (naar jouw keuze) elke latere versie. Dit programma is gedistribueerd in de hoop dat het nuttig zal zijn maar ZONDER ENIGE GARANTIE; zelfs zonder de impliciete garanties die GEBRUIKELIJK ZIJN IN DE HANDEL of voor BRUIKBAARHEID VOOR EEN SPECIFIEK DOEL. Zie de <a href='https://www.gnu.org/licenses/gpl-3.0.nl.html'> GNU Algemene Publike Licentie </a> voor meer details."
+
+#: ../qml/About.qml:113
+msgid "SOURCE"
+msgstr "CODE"
+
+#: ../qml/About.qml:113
+msgid "ISSUES"
+msgstr "PROBLEMEN"
+
+#: ../qml/About.qml:113
+msgid "DONATE"
+msgstr "DONEREN"
+
+#: ../qml/About.qml:128
+msgid "Maintainer"
+msgstr "Beheerder"
+
+#: ../qml/About.qml:142
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../qml/widgets/event/Settings.qml:15
+#: ../qml/widgets/favoritecontact/Settings.qml:14
+#: ../qml/widgets/lastmessage/Settings.qml:15
+#: ../qml/widgets/lastcall/Settings.qml:15
+msgid "Settings Widget"
+msgstr "Instellingen Widget"
+
+#: ../qml/widgets/event/Settings.qml:72 ../qml/pages/calendar/Settings.qml:70
+msgid "Limit of days"
+msgstr "Aantal dagen"
+
+#: ../qml/widgets/event/Settings.qml:91 ../qml/pages/calendar/Settings.qml:89
+msgid "By defaut 60 days"
+msgstr "Een standaard van 60 dagen"
+
+#: ../qml/widgets/event/Settings.qml:116
+msgid "Limit of event"
+msgstr "Grens van gebeurtenis"
+
+#: ../qml/widgets/event/Settings.qml:135
+msgid "By defaut 3 event"
+msgstr "Standaard 3 gebeurtenissen"
+
 #: ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/widgets/lastmessage/Settings.qml:56
+#: ../qml/widgets/lastcall/Settings.qml:57 ../qml/Settings.qml:91
 msgid "Generals"
 msgstr "Algemeen"
 
-#: ../qml/Settings.qml:96
-msgid "Dark background"
-msgstr "Donkere achtergrond"
+#: ../qml/widgets/favoritecontact/Settings.qml:61
+msgid "Dialer"
+msgstr "Telefoon"
 
-#: ../qml/Settings.qml:118
-msgid "Background blur effect"
-msgstr "Achtergrond vervagen"
+#: ../qml/widgets/favoritecontact/Settings.qml:61
+#: ../qml/widgets/lastcall/Settings.qml:62
+msgid "Open the dialer"
+msgstr "Open de telefoon-app"
 
-#: ../qml/Settings.qml:126
-msgid "Standard"
-msgstr "Standaard"
+#: ../qml/widgets/favoritecontact/Settings.qml:62
+msgid "Linphone"
+msgstr "Linphone"
 
-#: ../qml/Settings.qml:126
-msgid "Style by default"
-msgstr "Standaard stijl"
+#: ../qml/widgets/favoritecontact/Settings.qml:62
+msgid "Open Linphone"
+msgstr "Open Linphone"
 
-#: ../qml/Settings.qml:127
-msgid "Rounded"
-msgstr "Rond"
+#: ../qml/widgets/favoritecontact/Settings.qml:87
+#: ../qml/widgets/lastmessage/Settings.qml:98
+#: ../qml/widgets/lastcall/Settings.qml:88
+msgid "When clicked : "
+msgstr "Wanneer er op wordt geklikt : "
 
-#: ../qml/Settings.qml:127
-msgid "Icons rounded"
-msgstr "Ronde pictogrammen"
+#: ../qml/widgets/FavoriteContact.qml:33
+msgid "Favorite Contacts"
+msgstr "Favoriete contacten"
 
-#: ../qml/Settings.qml:128
-msgid "None"
-msgstr "Geen"
+#: ../qml/widgets/SearchContact.qml:36
+msgid "Search Contacts"
+msgstr "Zoek in contacten"
 
-#: ../qml/Settings.qml:128
-msgid "Icons without style"
-msgstr "Stijlloze pictogrammen"
+#: ../qml/widgets/weather/Settings.qml:14
+msgid "Settings Widget Weather"
+msgstr "Weer-widget instellingen"
 
-#: ../qml/Settings.qml:153
-msgid "Style Icons : "
-msgstr "Pictogrammen stijl : "
+#: ../qml/widgets/weather/Settings.qml:66
+msgid "Api Key"
+msgstr "API sleutel"
 
-#: ../qml/Settings.qml:165
-msgid "Other"
-msgstr "Andere"
+#: ../qml/widgets/weather/Settings.qml:85
+msgid "Api openweathermap"
+msgstr "API OpenWeatherMap"
 
-#: ../qml/Settings.qml:168
-msgid "Restore standard launcher"
-msgstr "Standaard launcher herstellen"
+#: ../qml/widgets/weather/Settings.qml:97
+msgid "Click to signup for an API key"
+msgstr "Klik om u aan te melden voor een API sleutel"
 
-#: ../qml/Settings.qml:168
-msgid "Install Launcher Modular by default"
-msgstr "Installeer Launcher Modular als standaard launcher"
+#: ../qml/widgets/weather/Settings.qml:117
+msgid "City name"
+msgstr "Stad naam"
 
-#: ../qml/Settings.qml:189
-msgid "You will need to restart after installing or restore"
-msgstr "U dient uw apparaat te herstarten na het installeren of herstellen van de launcher"
-
-#: ../qml/Settings.qml:193
-msgid "Replace standard launcher"
-msgstr "Standaard launcher vervangen"
-
-#: ../qml/Settings.qml:196
-msgid "If you can not restore click here"
-msgstr "Klik hier als u de launcher niet kunt herstellen"
-
-#: ../qml/widgets/lastmessage/Settings.qml:15
-#: ../qml/widgets/lastcall/Settings.qml:15 ../qml/widgets/event/Settings.qml:15
-#: ../qml/widgets/favoritecontact/Settings.qml:14
-msgid "Settings Widget"
-msgstr "Instellingen Widget"
+#: ../qml/widgets/weather/Settings.qml:136
+msgid "or"
+msgstr "of"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
@@ -306,128 +217,14 @@ msgstr "Open bericht"
 msgid "Open the application with message"
 msgstr "Open de app met bericht"
 
-#: ../qml/widgets/lastmessage/Settings.qml:98
-#: ../qml/widgets/lastcall/Settings.qml:88
-#: ../qml/widgets/favoritecontact/Settings.qml:87
-msgid "When clicked : "
-msgstr "Wanneer er op wordt geklikt : "
-
-#: ../qml/widgets/SearchContact.qml:36
-msgid "Search Contacts"
-msgstr "Zoek in contacten"
-
-#: ../qml/widgets/Lastcall.qml:36
-msgid "Last Call"
-msgstr "Laatste oproep"
-
-#: ../qml/widgets/Lastcall.qml:57
-msgid "No recent calls"
-msgstr "Geen recente oproepen"
-
-#: ../qml/widgets/FavoriteApp.qml:42 ../qml/widgets/FavoriteAppBACK.qml:49
+#: ../qml/widgets/FavoriteAppBACK.qml:49 ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
 msgstr "Favoriete apps"
 
-#: ../qml/widgets/Alarm.qml:31
-msgid "Alarms"
-msgstr "Alarmen"
-
-#: ../qml/widgets/Alarm.qml:42
-msgid "No active alarm"
-msgstr "Geen actieve alarmen"
-
-#: ../qml/widgets/Alarm.qml:58
-msgid "at"
-msgstr "bij"
-
-#: ../qml/widgets/lastcall/Settings.qml:62
-#: ../qml/widgets/favoritecontact/Settings.qml:61
-msgid "Open the dialer"
-msgstr "Open de telefoon-app"
-
-#: ../qml/widgets/lastcall/Settings.qml:63
-msgid "Call"
-msgstr "Bel"
-
-#: ../qml/widgets/lastcall/Settings.qml:63
-msgid "Open the dialer with number"
-msgstr "Open de telefoon-app met dit nummer"
-
-#: ../qml/widgets/weather/Settings.qml:14
-msgid "Settings Widget Weather"
-msgstr "Weer-widget instellingen"
-
-#: ../qml/widgets/weather/Settings.qml:66
-msgid "Api Key"
-msgstr "API sleutel"
-
-#: ../qml/widgets/weather/Settings.qml:85
-msgid "Api openweathermap"
-msgstr "API OpenWeatherMap"
-
-#: ../qml/widgets/weather/Settings.qml:97
-msgid "Click to signup for an API key"
-msgstr "Klik om u aan te melden voor een API sleutel"
-
-#: ../qml/widgets/weather/Settings.qml:117
-msgid "City name"
-msgstr "Stad naam"
-
-#: ../qml/widgets/weather/Settings.qml:136
-msgid "or"
-msgstr "of"
-
-#: ../qml/widgets/FavoriteContact.qml:35
-msgid "Favorite Contacts"
-msgstr "Favoriete contacten"
-
-#: ../qml/widgets/Lastmessage.qml:38
-msgid "Last Message"
-msgstr "Laatste bericht"
-
-#: ../qml/widgets/Lastmessage.qml:58
-msgid "No recent messages"
-msgstr "Geen recente berichten"
-
-#: ../qml/widgets/clock/Settings.qml:15
-msgid "Settings Widget Clock"
-msgstr "Klok-widget instellingen"
-
-#: ../qml/widgets/clock/Settings.qml:56
-msgid "Analog clock with digit"
-msgstr "Analoge klok met cijfer"
-
-#: ../qml/widgets/clock/Settings.qml:69
-msgid "Use 24h format"
-msgstr "Gebruik 24-uurs indeling"
-
-#: ../qml/widgets/Event.qml:44
-msgid "Events"
-msgstr "Gebeurtenissen"
-
-#: ../qml/widgets/Event.qml:102
-msgid "No events"
-msgstr "Geen gebeurtenissen"
-
-#: ../qml/widgets/event/Settings.qml:116
-msgid "Limit of event"
-msgstr "Grens van gebeurtenis"
-
-#: ../qml/widgets/event/Settings.qml:135
-msgid "By defaut 3 event"
-msgstr "Standaard 3 gebeurtenissen"
-
-#: ../qml/widgets/favoritecontact/Settings.qml:61
-msgid "Dialer"
-msgstr "Telefoon"
-
-#: ../qml/widgets/favoritecontact/Settings.qml:62
-msgid "Linphone"
-msgstr "Linphone"
-
-#: ../qml/widgets/favoritecontact/Settings.qml:62
-msgid "Open Linphone"
-msgstr "Open Linphone"
+#: ../qml/widgets/FavoriteAppBACK.qml:126 ../qml/widgets/FavoriteApp.qml:146
+#: ../qml/pages/Home.qml:399
+msgid "Uninstall"
+msgstr "Deïnstalleren"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
@@ -564,6 +361,62 @@ msgstr "Noord-Noordwest"
 msgid "humidity"
 msgstr "luchtvochtigheid"
 
+#: ../qml/widgets/Alarm.qml:31
+msgid "Alarms"
+msgstr "Alarmen"
+
+#: ../qml/widgets/Alarm.qml:42
+msgid "No active alarm"
+msgstr "Geen actieve alarmen"
+
+#: ../qml/widgets/Alarm.qml:58
+msgid "at"
+msgstr "bij"
+
+#: ../qml/widgets/Lastmessage.qml:38
+msgid "Last Message"
+msgstr "Laatste bericht"
+
+#: ../qml/widgets/Lastmessage.qml:58
+msgid "No recent messages"
+msgstr "Geen recente berichten"
+
+#: ../qml/widgets/Lastcall.qml:36
+msgid "Last Call"
+msgstr "Laatste oproep"
+
+#: ../qml/widgets/Lastcall.qml:57
+msgid "No recent calls"
+msgstr "Geen recente oproepen"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Call"
+msgstr "Bel"
+
+#: ../qml/widgets/lastcall/Settings.qml:63
+msgid "Open the dialer with number"
+msgstr "Open de telefoon-app met dit nummer"
+
+#: ../qml/widgets/clock/Settings.qml:15
+msgid "Settings Widget Clock"
+msgstr "Klok-widget instellingen"
+
+#: ../qml/widgets/clock/Settings.qml:56
+msgid "Analog clock with digit"
+msgstr "Analoge klok met cijfer"
+
+#: ../qml/widgets/Event.qml:44
+msgid "Events"
+msgstr "Gebeurtenissen"
+
+#: ../qml/widgets/Event.qml:102
+msgid "No events"
+msgstr "Geen gebeurtenissen"
+
+#: ../qml/ImportPage.qml:13
+msgid "Choose"
+msgstr "Kiezen"
+
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
 msgstr "Beheer pagina's"
@@ -572,10 +425,180 @@ msgstr "Beheer pagina's"
 msgid "Choose a page"
 msgstr "Kies een pagina"
 
-#: ../qml/ImportPage.qml:13
-msgid "Choose"
-msgstr "Kiezen"
+#: ../qml/pages/cryptoprice/Settings.qml:17
+#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
+#: ../qml/pages/cinema/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
+#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/calendar/Settings.qml:12
+#: ../qml/pages/news/Settings.qml:15
+msgid "Settings Page"
+msgstr "Instellingen"
+
+#: ../qml/pages/cryptoprice/Settings.qml:52
+msgid "Automatic Updates every 5 seconds?"
+msgstr "Om de 5 seconden bijwerken?"
+
+#: ../qml/pages/cryptoprice/Settings.qml:62
+msgid "Your currency?"
+msgstr "Uw valuta?"
+
+#: ../qml/pages/Calendar.qml:103
+msgid "Agenda"
+msgstr "Agenda"
+
+#: ../qml/pages/home/SettingsBACK.qml:128 ../qml/pages/home/Settings.qml:120
+msgid "Widgets"
+msgstr "Widgets"
+
+#: ../qml/pages/home/SettingsBACK.qml:133 ../qml/pages/home/Settings.qml:125
+msgid "show clock"
+msgstr "toon klok"
+
+#: ../qml/pages/home/SettingsBACK.qml:142 ../qml/pages/home/Settings.qml:134
+msgid "show weather"
+msgstr "toon weer"
+
+#: ../qml/pages/home/SettingsBACK.qml:152 ../qml/pages/home/Settings.qml:144
+msgid "show alarm"
+msgstr "toon alarm"
+
+#: ../qml/pages/home/SettingsBACK.qml:161 ../qml/pages/home/Settings.qml:153
+msgid "show last call"
+msgstr "toon laatste oproep"
+
+#: ../qml/pages/home/SettingsBACK.qml:170 ../qml/pages/home/Settings.qml:162
+msgid "show last message"
+msgstr "toon laatste bericht"
+
+#: ../qml/pages/home/SettingsBACK.qml:179 ../qml/pages/home/Settings.qml:171
+msgid "show event"
+msgstr "toon gebeurtenis"
+
+#: ../qml/pages/home/SettingsBACK.qml:191 ../qml/pages/home/Settings.qml:183
+msgid "Favorite apps management"
+msgstr "Beheer favoriete apps"
+
+#: ../qml/pages/home/SettingsBACK.qml:226 ../qml/pages/home/Settings.qml:216
+#: ../qml/pages/Todo.qml:119 ../qml/Pagemanagementback.qml:182
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../qml/pages/Todo.qml:64
+msgid "new todo"
+msgstr "nieuwe to-do"
+
+#: ../qml/pages/News.qml:202
+msgid "by"
+msgstr "door"
+
+#: ../qml/pages/picture/Settings.qml:58
+msgid "Image path"
+msgstr "Pad naar afbeelding"
+
+#: ../qml/pages/calendar/Settings.qml:51
+msgid "General"
+msgstr "Algemeen"
+
+#: ../qml/pages/news/Settings.qml:67
+msgid "Management of news sources"
+msgstr "Beheer van nieuwsbronnen"
+
+#: ../qml/pages/news/Settings.qml:77
+msgid "Transparent background"
+msgstr "Transparante achtergrond"
+
+#: ../qml/pages/news/Settings.qml:97
+msgid "Filter (XPath)"
+msgstr "Filter (XPath)"
+
+#: ../qml/pages/news/Share.qml:7
+msgid "Send URL To..."
+msgstr "URL verzenden naar…"
+
+#: ../qml/pages/Home.qml:159
+msgid "Search your phone and online sources"
+msgstr "Uw telefoon en online bronnen doorzoeken"
+
+#: ../qml/pages/Home.qml:286
+msgid "Installed Apps"
+msgstr "Geïnstalleerde apps"
+
+#: ../qml/pages/Home.qml:399
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: ../qml/pages/Cinema.qml:52
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: ../qml/pages/Cinema.qml:186
+msgid "Coming soon"
+msgstr "Komt binnenkort"
+
+#: ../qml/Settings.qml:18
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../qml/Settings.qml:96
+msgid "Dark background"
+msgstr "Donkere achtergrond"
+
+#: ../qml/Settings.qml:118
+msgid "Background blur effect"
+msgstr "Achtergrond vervagen"
+
+#: ../qml/Settings.qml:126
+msgid "Standard"
+msgstr "Standaard"
+
+#: ../qml/Settings.qml:126
+msgid "Style by default"
+msgstr "Standaard stijl"
+
+#: ../qml/Settings.qml:127
+msgid "Rounded"
+msgstr "Rond"
+
+#: ../qml/Settings.qml:127
+msgid "Icons rounded"
+msgstr "Ronde pictogrammen"
+
+#: ../qml/Settings.qml:128
+msgid "None"
+msgstr "Geen"
+
+#: ../qml/Settings.qml:128
+msgid "Icons without style"
+msgstr "Stijlloze pictogrammen"
+
+#: ../qml/Settings.qml:153
+msgid "Style Icons : "
+msgstr "Pictogrammen stijl : "
+
+#: ../qml/Settings.qml:164
+msgid "Other"
+msgstr "Andere"
+
+#: ../qml/Settings.qml:168
+msgid "Restore standard launcher"
+msgstr "Standaard launcher herstellen"
+
+#: ../qml/Settings.qml:168
+msgid "Install Launcher Modular by default"
+msgstr "Installeer Launcher Modular als standaard launcher"
+
+#: ../qml/Settings.qml:186
+msgid "You will need to restart after installing or restore"
+msgstr "U dient uw apparaat te herstarten na het installeren of herstellen van de launcher"
+
+#: ../qml/Settings.qml:193
+msgid "Replace standard launcher"
+msgstr "Standaard launcher vervangen"
+
+#: ../qml/Settings.qml:200
+msgid "If you can not restore click here"
+msgstr "Klik hier als u de launcher niet kunt herstellen"
 
 #: launchermodular.desktop.in.h:1
 msgid "Launcher modular"
 msgstr "Launcher modular"
+
