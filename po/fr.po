@@ -405,11 +405,11 @@ msgstr "Paramètres du Widget « Horloge »"
 msgid "Analog clock with digit"
 msgstr "Horloge analogique à chiffres"
 
-#: ../qml/widgets/Event.qml:44
+#: ../qml/widgets/Event.qml:46
 msgid "Events"
 msgstr "Événements"
 
-#: ../qml/widgets/Event.qml:102
+#: ../qml/widgets/Event.qml:104
 msgid "No events"
 msgstr "Aucun événement"
 
@@ -601,4 +601,8 @@ msgstr "Si vous n'arrivez pas à restaurer, cliquez ici"
 #: launchermodular.desktop.in.h:1
 msgid "Launcher modular"
 msgstr "Lanceur modulaire"
+
+#: ../qml/About.qml:156
+msgid "Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer."
+msgstr "Merci aux testeurs et traducteurs: Sander Klootwijk, Steve Kueffer."
 
