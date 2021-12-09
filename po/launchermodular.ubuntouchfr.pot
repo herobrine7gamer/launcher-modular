@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 08:01+0000\n"
+"POT-Creation-Date: 2021-12-09 09:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,9 +117,13 @@ msgid "Copyright"
 msgstr ""
 
 #: ../qml/About.qml:156
+msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
+msgstr ""
+
+#: ../qml/About.qml:170
 msgid ""
-"Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer, "
-"Daniel Frost."
+"Special thanks to the translators: Sander Klootwijk, Steve Kueffer, Daniel "
+"Frost."
 msgstr ""
 
 #: ../qml/widgets/event/Settings.qml:15

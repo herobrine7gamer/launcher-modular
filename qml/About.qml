@@ -152,15 +152,29 @@ Item {
             width: parent.width
             height: thankLabel.height + units.gu(2)
             Label {
-                id: transLabel
-                text: i18n.tr("Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer, Daniel Frost.")
+                id: betaLabel
+                text: i18n.tr("Special thanks to the testers : Sander Klootwijk, Steve Kueffer.")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          }                 
+          } 
+
+        Item {
+            width: parent.width
+            height: thankLabel.height + units.gu(2)
+            Label {
+                id: transLabel
+                text: i18n.tr("Special thanks to the translators: Sander Klootwijk, Steve Kueffer, Daniel Frost.")
+                anchors.centerIn: parent
+                wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
+                horizontalAlignment: Text.AlignHCenter
+                width: parent.width - units.gu(12)
+                color: "#ffffff"
+            }
+          }                           
         }
       }
     }
