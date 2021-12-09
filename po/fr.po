@@ -7,6 +7,10 @@ msgstr ""
 "Project-Id-Version: Launcher modular\n"
 "Language: fr\n"
 
+#. SOME DESCRIPTIVE TITLE.
+#. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+#. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
+#. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #: ../qml/Main.qml:475
 msgid "Add custom icon"
 msgstr "Ajouter une icône personnalisée"
@@ -605,4 +609,12 @@ msgstr "Lanceur modulaire"
 #: ../qml/About.qml:156
 msgid "Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer."
 msgstr "Merci aux testeurs et traducteurs: Sander Klootwijk, Steve Kueffer."
+
+#: ../qml/About.qml:156
+msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
+msgstr "Merci aux testeurs: Sander Klootwijk, Steve Kueffer."
+
+#: ../qml/About.qml:170
+msgid "Special thanks to the translators: Sander Klootwijk, Steve Kueffer, Daniel Frost."
+msgstr "Merci aux traducteurs: Sander Klootwijk, Steve Kueffer, Daniel Frost."
 
