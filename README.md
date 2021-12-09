@@ -16,3 +16,7 @@ Once clickable is installed you are ready to go.
 4. Change into Launcher Modular folder: `cd launcher-modular`.
 
 5. run clickable: `clickable`.
+
+### Translation
+
+Goto [Launcher Modular on POEditor](https://poeditor.com/join/project?hash=oMUaXecg1U), login, start translating.
