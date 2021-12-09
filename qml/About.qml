@@ -153,7 +153,7 @@ Item {
             height: thankLabel.height + units.gu(2)
             Label {
                 id: transLabel
-                text: i18n.tr("Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer.")
+                text: i18n.tr("Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer, Daniel Frost.")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter

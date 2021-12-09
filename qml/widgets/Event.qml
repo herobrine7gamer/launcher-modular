@@ -135,7 +135,7 @@ OrganizerModel {
             }
             Rectangle { height: parent.height; width: units.gu(0.1); color: "#E95420"; }
             Column{
-                Text { text: item.displayLabel; elide: Text.ElideRight; width: event.width-units.gu(6); color: launchermodular.settings.textColor; font.pointSize: units.gu(1.2);}
+                Text { text: item.displayLabel; wrapMode: Text.WordWrap; elide: Text.ElideRight; width: event.width-units.gu(4); color: launchermodular.settings.textColor; font.pointSize: units.gu(1.2);}
                 Text { text: {
                         var evt_time = item.detail(Detail.EventTime)
                         var starttime = evt_time.startDateTime;
@@ -143,7 +143,7 @@ OrganizerModel {
                       }
                       elide: Text.ElideRight;
                       maximumLineCount: 1;
-                      width: event.width-units.gu(6);
+                      width: event.width-units.gu(4);
                       color: "#AEA79F"; font.pointSize: units.gu(1.2);}
             }
 

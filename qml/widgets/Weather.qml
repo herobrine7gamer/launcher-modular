@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import "../components"
@@ -165,59 +165,59 @@ XmlListModel {
                     text: {
                       if (launchermodular.settings.unitsFormat == "&units=imperial"){
                         if (windspeed >= 0 && windspeed <= 0.2) {
-                            return i18n.tr("Calm")+" "+windspeed+" m/s";
+                            return i18n.tr("Calm")+" "+windspeed+" mph";
                         } else if (windspeed >= 0.3 && windspeed <= 1.59) {
-                            return i18n.tr("Light Air")+" "+windspeed+" m/s";
+                            return i18n.tr("Light Air")+" "+windspeed+" mph";
                         } else if (windspeed >= 1.6 && windspeed <= 3.39) {
-                            return i18n.tr("Light Breeze")+" "+windspeed+" m/s";
+                            return i18n.tr("Light Breeze")+" "+windspeed+" mph";
                         } else if (windspeed >= 3.4 && windspeed <= 5.49) {
-                            return i18n.tr("Gentle Breeze")+" "+windspeed+" m/s";
+                            return i18n.tr("Gentle Breeze")+" "+windspeed+" mph";
                         } else if (windspeed >= 5.5 && windspeed <= 7.99) {
-                            return i18n.tr("Moderate Breeze")+" "+windspeed+" m/s";
+                            return i18n.tr("Moderate Breeze")+" "+windspeed+" mph";
                         } else if (windspeed >= 8.0 && windspeed <= 10.79) {
-                            return i18n.tr("Fresh Breeze")+" "+windspeed+" m/s";
+                            return i18n.tr("Fresh Breeze")+" "+windspeed+" mph";
                         } else if (windspeed >= 10.8 && windspeed <= 13.89) {
-                            return i18n.tr("Strong Breeze")+" "+windspeed+" m/s";
+                            return i18n.tr("Strong Breeze")+" "+windspeed+" mph";
                         } else if (windspeed >= 13.9 && windspeed <= 17.19) {
-                            return i18n.tr("Near Gale")+" "+windspeed+" m/s";
+                            return i18n.tr("Near Gale")+" "+windspeed+" mph";
                         } else if (windspeed >= 17.2 && windspeed <= 20.79) {
-                            return i18n.tr("Gale")+" "+windspeed+" m/s";
+                            return i18n.tr("Gale")+" "+windspeed+" mph";
                         } else if (windspeed >= 20.8 && windspeed <= 24.49) {
-                            return i18n.tr("Severe Gale")+" "+windspeed+" m/s";
+                            return i18n.tr("Severe Gale")+" "+windspeed+" mph";
                         } else if (windspeed >= 24.5 && windspeed <= 28.49) {
-                            return i18n.tr("Strong storm")+" "+windspeed+" m/s";
+                            return i18n.tr("Strong storm")+" "+windspeed+" mph";
                         } else if (windspeed >= 28.5 && windspeed <= 32.69) {
-                            return i18n.tr("Violent Storm")+" "+windspeed+" m/s";
+                            return i18n.tr("Violent Storm")+" "+windspeed+" mph";
                         } else if (windspeed >= 32.7) {
-                            return i18n.tr("Hurricane")+" "+windspeed+" m/s";
+                            return i18n.tr("Hurricane")+" "+windspeed+" mph";
                         }
                       }else{
                         if (windspeed >= 0 && windspeed <= 1) {
-                            return i18n.tr("Calm")+" "+windspeed+" mph";
+                            return i18n.tr("Calm")+" "+windspeed+" km/h";
                         } else if (windspeed >= 1 && windspeed <= 3) {
-                            return i18n.tr("Light Air")+" "+windspeed+" mph";
+                            return i18n.tr("Light Air")+" "+windspeed+" km/h";
                         } else if (windspeed >= 3.1 && windspeed <= 7) {
-                            return i18n.tr("Light Breeze")+" "+windspeed+" mph";
+                            return i18n.tr("Light Breeze")+" "+windspeed+" km/h";
                         } else if (windspeed >= 7.1 && windspeed <= 12) {
-                            return i18n.tr("Gentle Breeze")+" "+windspeed+" mph";
+                            return i18n.tr("Gentle Breeze")+" "+windspeed+" km/h";
                         } else if (windspeed >= 12.1 && windspeed <= 17) {
-                            return i18n.tr("Moderate Breeze")+" "+windspeed+" mph";
+                            return i18n.tr("Moderate Breeze")+" "+windspeed+" km/h";
                         } else if (windspeed >= 17.1 && windspeed <= 24) {
-                            return i18n.tr("Fresh Breeze")+" "+windspeed+" mph";
+                            return i18n.tr("Fresh Breeze")+" "+windspeed+" km/h";
                         } else if (windspeed >= 24.1 && windspeed <= 30) {
-                            return i18n.tr("Strong Breeze")+" "+windspeed+" mph";
+                            return i18n.tr("Strong Breeze")+" "+windspeed+" km/h";
                         } else if (windspeed >= 30.1 && windspeed <= 38) {
-                            return i18n.tr("Near Gale")+" "+windspeed+" mph";
+                            return i18n.tr("Near Gale")+" "+windspeed+" km/h";
                         } else if (windspeed >= 38.1 && windspeed <= 46) {
-                            return i18n.tr("Gale")+" "+windspeed+" mph";
+                            return i18n.tr("Gale")+" "+windspeed+" km/h";
                         } else if (windspeed >= 46.1 && windspeed <= 54) {
-                            return i18n.tr("Severe Gale")+" "+windspeed+" mph";
+                            return i18n.tr("Severe Gale")+" "+windspeed+" km/h";
                         } else if (windspeed >= 54.1 && windspeed <= 63) {
-                            return i18n.tr("Strong storm")+" "+windspeed+" mph";
+                            return i18n.tr("Strong storm")+" "+windspeed+" km/h";
                         } else if (windspeed >= 63.1 && windspeed <= 73) {
-                            return i18n.tr("Violent Storm")+" "+windspeed+" mph";
+                            return i18n.tr("Violent Storm")+" "+windspeed+" km/h";
                         } else if (windspeed >= 73.1) {
-                            return i18n.tr("Hurricane")+" "+windspeed+" mph";
+                            return i18n.tr("Hurricane")+" "+windspeed+" km/h";
                         }
                       }
                     }
