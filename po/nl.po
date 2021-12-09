@@ -7,6 +7,10 @@ msgstr ""
 "Project-Id-Version: Launcher modular\n"
 "Language: nl\n"
 
+#. SOME DESCRIPTIVE TITLE.
+#. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+#. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
+#. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #: ../qml/Main.qml:475
 msgid "Add custom icon"
 msgstr "Aangepast pictogram"
@@ -405,11 +409,11 @@ msgstr "Klok-widget instellingen"
 msgid "Analog clock with digit"
 msgstr "Analoge klok met cijfer"
 
-#: ../qml/widgets/Event.qml:44
+#: ../qml/widgets/Event.qml:46
 msgid "Events"
 msgstr "Gebeurtenissen"
 
-#: ../qml/widgets/Event.qml:102
+#: ../qml/widgets/Event.qml:104
 msgid "No events"
 msgstr "Geen gebeurtenissen"
 
@@ -601,4 +605,16 @@ msgstr "Klik hier als u de launcher niet kunt herstellen"
 #: launchermodular.desktop.in.h:1
 msgid "Launcher modular"
 msgstr "Launcher modular"
+
+#: ../qml/About.qml:156
+msgid "Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer."
+msgstr "In het bijzonder dank aan testers en vertalers: Sander Klootwijk, Steve Kueffer."
+
+#: ../qml/About.qml:156
+msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
+msgstr "In het bijzonder dank aan de testers: Sander Klootwijk, Steve Kueffer."
+
+#: ../qml/About.qml:170
+msgid "Special thanks to the translators: Sander Klootwijk, Steve Kueffer, Daniel Frost."
+msgstr "In het bijzonder dank aan de vertalers: Sander Klootwijk, Steve Kueffer, Daniel Frost."
 
