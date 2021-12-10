@@ -66,7 +66,7 @@ msgstr "Icon erstellen"
 #: ../qml/Main.qml:724 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
-#: ../qml/pages/Home.qml:437 ../qml/Pagemanagementback.qml:128
+#: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -226,7 +226,7 @@ msgid "Favorite Apps"
 msgstr "Favouriten"
 
 #: ../qml/widgets/FavoriteAppBACK.qml:126 ../qml/widgets/FavoriteApp.qml:146
-#: ../qml/pages/Home.qml:399
+#: ../qml/pages/Home.qml:398
 msgid "Uninstall"
 msgstr "Deinstallieren"
 
@@ -518,15 +518,15 @@ msgstr "Filter (XPath)"
 msgid "Send URL To..."
 msgstr "Sende URL an ..."
 
-#: ../qml/pages/Home.qml:159
+#: ../qml/pages/Home.qml:158
 msgid "Search your phone and online sources"
 msgstr "Telefon und Ihre Online-Quellen durchsuchen"
 
-#: ../qml/pages/Home.qml:286
+#: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
 msgstr "Installierte Apps"
 
-#: ../qml/pages/Home.qml:399
+#: ../qml/pages/Home.qml:398
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -617,4 +617,8 @@ msgstr "Vielen Dank an die Tester und Übersetzer: Sander Klootwijk, Steve Kueff
 #: ../qml/About.qml:170
 msgid "Special thanks to the translators: Sander Klootwijk, Steve Kueffer, Daniel Frost."
 msgstr "Vielen Dank an die Tester und Übersetzer: Sander Klootwijk, Steve Kueffer, Daniel Frost."
+
+#: ../qml/widgets/clock/Settings.qml:56
+msgid "Show analog clock with digits"
+msgstr "Zeige Stundenzahlen auf der analogen Uhr"
 
