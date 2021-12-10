@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 15:43+0000\n"
+"POT-Creation-Date: 2021-12-10 05:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,7 +72,7 @@ msgstr ""
 #: ../qml/Main.qml:724 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
-#: ../qml/pages/Home.qml:437 ../qml/Pagemanagementback.qml:128
+#: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
 msgid "Cancel"
 msgstr ""
 
@@ -246,7 +246,7 @@ msgid "Favorite Apps"
 msgstr ""
 
 #: ../qml/widgets/FavoriteAppBACK.qml:126 ../qml/widgets/FavoriteApp.qml:146
-#: ../qml/pages/Home.qml:399
+#: ../qml/pages/Home.qml:398
 msgid "Uninstall"
 msgstr ""
 
@@ -426,7 +426,7 @@ msgid "Settings Widget Clock"
 msgstr ""
 
 #: ../qml/widgets/clock/Settings.qml:56
-msgid "Analog clock with digit"
+msgid "Show analog clock with digits"
 msgstr ""
 
 #: ../qml/widgets/Event.qml:46
@@ -538,15 +538,15 @@ msgstr ""
 msgid "Send URL To..."
 msgstr ""
 
-#: ../qml/pages/Home.qml:159
+#: ../qml/pages/Home.qml:158
 msgid "Search your phone and online sources"
 msgstr ""
 
-#: ../qml/pages/Home.qml:286
+#: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
 msgstr ""
 
-#: ../qml/pages/Home.qml:399
+#: ../qml/pages/Home.qml:398
 msgid "Remove"
 msgstr ""
 

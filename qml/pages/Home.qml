@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0
@@ -10,7 +10,6 @@ import Terminalaccess 1.0
 import "../widgets"
 import QtQuick.Controls 2.2
 import Ubuntu.Components.Popups 1.3
-
 
 Item {
         id: home
@@ -481,8 +480,6 @@ Connections {
 
         }
                 
-                
-
     Repeater {
         id: listCustomIcon 
         model: launchermodular.customIconModel
@@ -500,11 +497,6 @@ Connections {
         }
 
     }
-
-
-
-
-                     
                         
         Component.onCompleted: {
             console.log(AppHandler.appsinfo.length);
