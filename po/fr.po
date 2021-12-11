@@ -11,66 +11,66 @@ msgstr ""
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 #. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
 #. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#: ../qml/Main.qml:475
+#: ../qml/Main.qml:471
 msgid "Add custom icon"
 msgstr "Ajouter une icône personnalisée"
 
-#: ../qml/Main.qml:502
+#: ../qml/Main.qml:498
 msgid "Manage page"
 msgstr "Gérer la page"
 
-#: ../qml/Main.qml:529
+#: ../qml/Main.qml:525
 msgid "Configure Launcher"
 msgstr "Configurer le lanceur"
 
-#: ../qml/Main.qml:676
+#: ../qml/Main.qml:672
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "Icône SVG ou PNG au ratio 1:1"
 
-#: ../qml/Main.qml:690
+#: ../qml/Main.qml:686
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "Le <b>titre</b> à afficher dans la liste des applications"
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:691
 msgid "Website"
 msgstr "Site internet"
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:691
 msgid "Open the browser with the url"
 msgstr "Ouvrir le lien avec le navigateur"
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:692
 msgid "Terminal command"
 msgstr "Commande de terminal"
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:692
 msgid "Launch an order in a terminal"
 msgstr "Lancer un ordre dans un terminal"
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:693
 msgid "Launch app"
 msgstr "Lancer l'application"
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:693
 msgid "Launch an app"
 msgstr "Lancer une application"
 
-#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
+#: ../qml/Main.qml:717 ../qml/Main.qml:719 ../qml/Main.qml:721
 msgid "<b>Action</b> exemple: "
 msgstr "Exemple d'<b>action</b> : "
 
-#: ../qml/Main.qml:739
+#: ../qml/Main.qml:735
 msgid "Create icon"
 msgstr "Créer une icône"
 
-#: ../qml/Main.qml:784 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/Main.qml:780 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
 #: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../qml/Main.qml:587 ../qml/About.qml:14
+#: ../qml/Main.qml:583 ../qml/About.qml:14
 msgid "About"
 msgstr "À propos"
 
@@ -431,9 +431,8 @@ msgstr "Sélectionner une page"
 
 #: ../qml/pages/cryptoprice/Settings.qml:17
 #: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
-#: ../qml/pages/cinema/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
-#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/calendar/Settings.qml:12
-#: ../qml/pages/news/Settings.qml:15
+#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12
 msgid "Settings Page"
 msgstr "Paramètres de la page"
 
@@ -622,25 +621,25 @@ msgstr "Merci aux traducteurs: Sander Klootwijk, Steve Kueffer, Daniel Frost."
 msgid "Show analog clock with digits"
 msgstr "Afficher l'horloge analogique avec des chiffres"
 
-#: ../qml/Main.qml:558 ../qml/Translators.qml:14
+#: ../qml/Main.qml:554 ../qml/Translators.qml:14
 msgid "Translators"
 msgstr "Traducteurs"
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr "Néerlandais"
+msgstr "Néerlandais - "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr "Français"
+msgstr "Français - "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr "Allemand"
+msgstr "Allemand - "
 
 #: ../qml/Translators.qml:140
 msgid "If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> for more details."
-msgstr "Si vous souhaitez traduire Lanceur Modulaire dans votre langue, rendez-vous sur <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> pour plus de détails. "
+msgstr "Si vous souhaitez traduire Lanceur Modulaire dans votre langue, rendez-vous sur <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> pour plus de détails."
 
 #: ../qml/Translators.qml:79
 msgid "Launcher Modular translators:"
