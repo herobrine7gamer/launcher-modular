@@ -134,7 +134,7 @@ Item {
           
         Item {
             width: parent.width
-            height: translation.height + units.gu(2)
+            height: translation.height + units.gu(4)
             Label {
                 id: translation
                                 text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> for more details.")
