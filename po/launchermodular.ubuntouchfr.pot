@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 08:50+0000\n"
+"POT-Creation-Date: 2021-12-11 09:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -471,27 +471,27 @@ msgstr ""
 msgid "Widgets"
 msgstr ""
 
-#: ../qml/pages/home/SettingsBACK.qml:133 ../qml/pages/home/Settings.qml:125
+#: ../qml/pages/home/SettingsBACK.qml:133
 msgid "show clock"
 msgstr ""
 
-#: ../qml/pages/home/SettingsBACK.qml:142 ../qml/pages/home/Settings.qml:134
+#: ../qml/pages/home/SettingsBACK.qml:142
 msgid "show weather"
 msgstr ""
 
-#: ../qml/pages/home/SettingsBACK.qml:152 ../qml/pages/home/Settings.qml:144
+#: ../qml/pages/home/SettingsBACK.qml:152
 msgid "show alarm"
 msgstr ""
 
-#: ../qml/pages/home/SettingsBACK.qml:161 ../qml/pages/home/Settings.qml:153
+#: ../qml/pages/home/SettingsBACK.qml:161
 msgid "show last call"
 msgstr ""
 
-#: ../qml/pages/home/SettingsBACK.qml:170 ../qml/pages/home/Settings.qml:162
+#: ../qml/pages/home/SettingsBACK.qml:170
 msgid "show last message"
 msgstr ""
 
-#: ../qml/pages/home/SettingsBACK.qml:179 ../qml/pages/home/Settings.qml:171
+#: ../qml/pages/home/SettingsBACK.qml:179
 msgid "show event"
 msgstr ""
 
@@ -502,6 +502,30 @@ msgstr ""
 #: ../qml/pages/home/SettingsBACK.qml:226 ../qml/pages/home/Settings.qml:216
 #: ../qml/pages/Todo.qml:119 ../qml/Pagemanagementback.qml:182
 msgid "Delete"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:125
+msgid "Show clock"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:134
+msgid "Show weather"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:144
+msgid "Show alarm"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:153
+msgid "Show last call"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:162
+msgid "Show last message"
+msgstr ""
+
+#: ../qml/pages/home/Settings.qml:171
+msgid "Show event"
 msgstr ""
 
 #: ../qml/pages/Todo.qml:64
@@ -618,6 +642,10 @@ msgstr ""
 
 #: ../qml/Settings.qml:186
 msgid "If you can not restore click here"
+msgstr ""
+
+#: ../qml/Translators.qml:79
+msgid "Launcher Modular translators:"
 msgstr ""
 
 #: ../qml/Translators.qml:98

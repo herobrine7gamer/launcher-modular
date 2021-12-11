@@ -76,7 +76,7 @@ Item {
             height: translators1Label.height + units.gu(2)
             Label {
                 id: translators1Label
-                text: ("Launcher Modular translators:")
+                text: i18n.tr("Launcher Modular translators:")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter

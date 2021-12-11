@@ -122,7 +122,7 @@ Rectangle {
 
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("show clock")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show clock")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleClock
                 onClicked: launchermodular.settings.widgetVisibleClock = !launchermodular.settings.widgetVisibleClock 
@@ -131,7 +131,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("show weather")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show weather")+"</font>"
             control: Switch {
                 checked: 
                 launchermodular.settings.widgetVisibleWeather
@@ -141,7 +141,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("show alarm")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show alarm")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleAlarm
                 onClicked: launchermodular.settings.widgetVisibleAlarm = !launchermodular.settings.widgetVisibleAlarm
@@ -150,7 +150,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("show last call")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show last call")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleLastcall
                 onClicked: launchermodular.settings.widgetVisibleLastcall = !launchermodular.settings.widgetVisibleLastcall 
@@ -159,7 +159,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("show last message")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show last message")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleLastmessage
                 onClicked: launchermodular.settings.widgetVisibleLastmessage = !launchermodular.settings.widgetVisibleLastmessage
@@ -168,7 +168,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("show event")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show event")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleEvent
                 onClicked: launchermodular.settings.widgetVisibleEvent = !launchermodular.settings.widgetVisibleEvent
