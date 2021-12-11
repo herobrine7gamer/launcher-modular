@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 09:06+0000\n"
+"POT-Creation-Date: 2021-12-11 09:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -513,7 +513,7 @@ msgid "Show weather"
 msgstr ""
 
 #: ../qml/pages/home/Settings.qml:144
-msgid "Show alarm"
+msgid "Show alarms"
 msgstr ""
 
 #: ../qml/pages/home/Settings.qml:153
@@ -525,7 +525,7 @@ msgid "Show last message"
 msgstr ""
 
 #: ../qml/pages/home/Settings.qml:171
-msgid "Show event"
+msgid "Show events"
 msgstr ""
 
 #: ../qml/pages/Todo.qml:64

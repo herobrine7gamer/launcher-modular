@@ -141,7 +141,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show alarm")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show alarms")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleAlarm
                 onClicked: launchermodular.settings.widgetVisibleAlarm = !launchermodular.settings.widgetVisibleAlarm
@@ -168,7 +168,7 @@ Rectangle {
             
         ListItemHeader.Standard {
             showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show event")+"</font>"
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show events")+"</font>"
             control: Switch {
                 checked: launchermodular.settings.widgetVisibleEvent
                 onClicked: launchermodular.settings.widgetVisibleEvent = !launchermodular.settings.widgetVisibleEvent
