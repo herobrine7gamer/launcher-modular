@@ -97,11 +97,7 @@ MainView {
         property var page;
         property var customIcon;
         property var favoriteApps;
-
-        property var selectedAppNews: [];
-	    signal newsConfigChanged();
-
-        property bool newsBackgroundOpacity: false
+	    
         property string widgetMessageClick: 'default'
         property bool widgetMessageSummary: true
         property string widgetCallClick: 'default'
