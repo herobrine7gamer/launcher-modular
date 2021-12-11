@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "0.1.12"
+    property string appVersion : "0.1.13"
 
 
     function getCustomIconArray() {
@@ -540,6 +540,64 @@ Rectangle {
 
 
                 }
+                Column {
+                    anchors.verticalCenter: parent.verticalCenter
+                    height: parent.height
+                    width: units.gu(8)
+                    Icon {
+                        id: iconTrans
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        name: "edit"
+                        height: units.gu(3)
+                        width: units.gu(3)
+                    }
+                    Text {
+                        anchors.top: iconTrans.bottom
+                        horizontalAlignment: Text.AlignHCenter
+                        width: parent.width
+                        text: i18n.tr("Translators")
+                        font.pointSize: units.gu(1)
+                        wrapMode:Text.WordWrap
+                    }
+                  MouseArea {
+                            anchors.fill: parent
+                            onPressed: {
+                                    pageStack.push(Qt.resolvedUrl("Translators.qml"))
+                                    bottomBarSettings.close()
+                            }
+                  }
+
+
+                }                 
+                Column {
+                    anchors.verticalCenter: parent.verticalCenter
+                    height: parent.height
+                    width: units.gu(8)
+                    Icon {
+                        id: iconAbout
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        name: "info"
+                        height: units.gu(3)
+                        width: units.gu(3)
+                    }
+                    Text {
+                        anchors.top: iconAbout.bottom
+                        horizontalAlignment: Text.AlignHCenter
+                        width: parent.width
+                        text: i18n.tr("About")
+                        font.pointSize: units.gu(1)
+                        wrapMode:Text.WordWrap
+                    }
+                  MouseArea {
+                            anchors.fill: parent
+                            onPressed: {
+                                    pageStack.push(Qt.resolvedUrl("About.qml"))
+                                    bottomBarSettings.close()
+                            }
+                  }
+
+
+                }                
 
             }
     }
@@ -624,6 +682,7 @@ Rectangle {
                     TextField {
                         id: appTitle
                         width: parent.width
+                        color: "black"
                         anchors {
                             left: parent.left
                             right: parent.right
@@ -633,9 +692,9 @@ Rectangle {
                  
 
                   property var modelCustom: [
-                    { title: "<font color=\"#6f6f6f\">"+i18n.tr("Website")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Open the browser with the url")+"</font>", style:"website" },
-                    { title: "<font color=\"#6f6f6f\">"+i18n.tr("Terminal command")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Launch an order in a terminal")+"</font>", style:"terminal" },
-                    { title: "<font color=\"#6f6f6f\">"+i18n.tr("Launch app")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Launch an app")+"</font>", style:"appid" }
+                    { title: "<font color=\"#6f6f6f\">"+i18n.tr("Website")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the browser with the url")+"</font>", style:"website" },
+                    { title: "<font color=\"#ffffff\">"+i18n.tr("Terminal command")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Launch an order in a terminal")+"</font>", style:"terminal" },
+                    { title: "<font color=\"#ffffff\">"+i18n.tr("Launch app")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Launch an app")+"</font>", style:"appid" }
                     ]
 
                     ListItem.ItemSelector {
@@ -652,6 +711,7 @@ Rectangle {
                     TextField {
                         id: appAction
                         width: parent.width
+                        color: "black"                        
                         anchors {
                             left: parent.left
                             right: parent.right
@@ -690,7 +750,7 @@ Rectangle {
 
                                 background: Rectangle {
                                     radius: units.gu(1.5)
-                                    color: "#E95420"
+                                    color: UbuntuColors.green
                                 }
                                 
                                 property var actionIcon: ""
@@ -726,7 +786,7 @@ Rectangle {
                                 width: (parent.width/2)-units.gu(2)
                                 background: Rectangle {
                                     radius: units.gu(1.5)
-                                    color: "#F6F6F5"
+                                    color: UbuntuColors.orange
                                 }
                                 onClicked: {
                                     onClicked: {
@@ -738,23 +798,13 @@ Rectangle {
                                     customIconDialogue.visible = false
 
                                     }
-                                }
-                            }
-
-                        }
-                  }
-}
-                    }
-                        }  
-                    
-    
-    
-    
-    
-    
-    
-
+                                 }
+                             }
+                         }
+                      }
+                   }
+                } 
+             }      
+          }
+       }
     }
-   }
-
-}

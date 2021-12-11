@@ -1,18 +1,30 @@
-import QtQuick 2.4
+import QtQuick 2.9
+import QtQuick.Layouts 1.1
+import QtGraphicalEffects 1.0
+import Qt.labs.settings 1.0
+import QtQuick.Controls 2.2
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
-import Ubuntu.Components.Popups 1.0
+import "pages"
 
 Page {
-    id: about
+    id: pageAbout
 
     header: PageHeader {
+        id: aboutPage
         title: i18n.tr("About");
        StyleHints {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
        }
-   }
+            leadingActionBar.actions: 
+                Action {
+                    iconName: "back"
+                    text: "Back"
+                    onTriggered: {
+                        pageStack.pop();
+        }
+     }
+  } 
 
 
     Rectangle {
@@ -150,24 +162,10 @@ Item {
           
         Item {
             width: parent.width
-            height: thankLabel.height + units.gu(2)
+            height: betaLabel.height + units.gu(2)
             Label {
                 id: betaLabel
                 text: i18n.tr("Special thanks to the testers : Sander Klootwijk, Steve Kueffer.")
-                anchors.centerIn: parent
-                wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
-                horizontalAlignment: Text.AlignHCenter
-                width: parent.width - units.gu(12)
-                color: "#ffffff"
-            }
-          } 
-
-        Item {
-            width: parent.width
-            height: thankLabel.height + units.gu(2)
-            Label {
-                id: transLabel
-                text: i18n.tr("Special thanks to the translators: Sander Klootwijk, Steve Kueffer, Daniel Frost.")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter

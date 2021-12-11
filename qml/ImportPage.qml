@@ -1,8 +1,6 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import Ubuntu.Components 1.3
 import Ubuntu.Content 1.3
-
-
 
 Page {
     id: picker

@@ -20,30 +20,16 @@ Page {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
        }
-            leadingActionBar.actions: [
+            leadingActionBar.actions: 
                 Action {
                     iconName: "back"
                     text: "Back"
                     onTriggered: {
                         pageStack.pop();
-                    }
-                }
-            ]           
-            trailingActionBar {
-                actions: [
-		   Action {
-                        iconName: "info"
-                        text: "about"
-                        onTriggered: {
-                             pageStack.push(Qt.resolvedUrl("About.qml"));
-                        }
-                    }
-               ]
-               numberOfSlots: 2
-            }
-   }
-
-
+        }
+     }
+  }
+  
 Component {
 	id: diag
  Dialog {
