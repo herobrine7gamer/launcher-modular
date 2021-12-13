@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0
@@ -97,7 +97,11 @@ MainView {
         property var page;
         property var customIcon;
         property var favoriteApps;
-	    
+        
+        property var selectedAppNews: [];
+	signal newsConfigChanged();        
+                  
+        property bool newsBackgroundOpacity: false                  
         property string widgetMessageClick: 'default'
         property bool widgetMessageSummary: true
         property string widgetCallClick: 'default'
@@ -452,7 +456,7 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-                }*/
+                }*/              
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -535,7 +539,7 @@ Rectangle {
                   }
 
 
-                }
+                }                 
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -543,7 +547,7 @@ Rectangle {
                     Icon {
                         id: iconTrans
                         anchors.horizontalCenter: parent.horizontalCenter
-                        name: "edit"
+                        name: "language-chooser"
                         height: units.gu(3)
                         width: units.gu(3)
                     }

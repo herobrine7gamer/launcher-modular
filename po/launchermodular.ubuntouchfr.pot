@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 14:35+0000\n"
+"POT-Creation-Date: 2021-12-13 17:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,67 +17,67 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Main.qml:471
+#: ../qml/Main.qml:475
 msgid "Add custom icon"
 msgstr ""
 
-#: ../qml/Main.qml:498
+#: ../qml/Main.qml:502
 msgid "Manage page"
 msgstr ""
 
-#: ../qml/Main.qml:525
+#: ../qml/Main.qml:529
 msgid "Configure Launcher"
 msgstr ""
 
-#: ../qml/Main.qml:554 ../qml/Translators.qml:14
+#: ../qml/Main.qml:558 ../qml/Translators.qml:14
 msgid "Translators"
 msgstr ""
 
-#: ../qml/Main.qml:583 ../qml/About.qml:14
+#: ../qml/Main.qml:587 ../qml/About.qml:14
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:672
+#: ../qml/Main.qml:676
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr ""
 
-#: ../qml/Main.qml:686
+#: ../qml/Main.qml:690
 msgid "The <b>title</b> to be shown in the app list"
 msgstr ""
 
-#: ../qml/Main.qml:691
+#: ../qml/Main.qml:695
 msgid "Website"
 msgstr ""
 
-#: ../qml/Main.qml:691
+#: ../qml/Main.qml:695
 msgid "Open the browser with the url"
 msgstr ""
 
-#: ../qml/Main.qml:692
+#: ../qml/Main.qml:696
 msgid "Terminal command"
 msgstr ""
 
-#: ../qml/Main.qml:692
+#: ../qml/Main.qml:696
 msgid "Launch an order in a terminal"
 msgstr ""
 
-#: ../qml/Main.qml:693
+#: ../qml/Main.qml:697
 msgid "Launch app"
 msgstr ""
 
-#: ../qml/Main.qml:693
+#: ../qml/Main.qml:697
 msgid "Launch an app"
 msgstr ""
 
-#: ../qml/Main.qml:717 ../qml/Main.qml:719 ../qml/Main.qml:721
+#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
 msgid "<b>Action</b> exemple: "
 msgstr ""
 
-#: ../qml/Main.qml:735
+#: ../qml/Main.qml:739
 msgid "Create icon"
 msgstr ""
 
-#: ../qml/Main.qml:780 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/Main.qml:784 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
 #: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
@@ -450,7 +450,7 @@ msgstr ""
 #: ../qml/pages/cryptoprice/Settings.qml:17
 #: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
-#: ../qml/pages/calendar/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/news/Settings.qml:15
 msgid "Settings Page"
 msgstr ""
 
@@ -531,12 +531,32 @@ msgstr ""
 msgid "new todo"
 msgstr ""
 
+#: ../qml/pages/News.qml:202
+msgid "by"
+msgstr ""
+
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
 msgstr ""
 
 #: ../qml/pages/calendar/Settings.qml:51
 msgid "General"
+msgstr ""
+
+#: ../qml/pages/news/Settings.qml:67
+msgid "Management of news sources"
+msgstr ""
+
+#: ../qml/pages/news/Settings.qml:77
+msgid "Transparent background"
+msgstr ""
+
+#: ../qml/pages/news/Settings.qml:97
+msgid "Filter (XPath)"
+msgstr ""
+
+#: ../qml/pages/news/Share.qml:7
+msgid "Send URL To..."
 msgstr ""
 
 #: ../qml/pages/Home.qml:158

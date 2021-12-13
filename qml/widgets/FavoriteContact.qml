@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import QtContacts 5.0
@@ -272,7 +272,7 @@ ContactModel {
                         anchors.fill: parent
                             onClicked: {
                                 flipable.flipped = false
-                                Qt.openUrlExternally(launchermodular.settings.widgetFavoriteContactClick+"://"+contact.phoneNumber.number)
+                                Qt.openUrlExternally(launchermodular.settings.widgetFavoriteContactClick+":///"+contact.phoneNumber.number)
                             } 
                     }
                 }

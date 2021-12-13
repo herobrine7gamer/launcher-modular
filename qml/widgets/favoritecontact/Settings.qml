@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.9
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
@@ -58,8 +58,8 @@ Rectangle {
             }
             
             property var model: [
-            { title: "<font color=\"#6f6f6f\">"+i18n.tr("Dialer")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Open the dialer")+"</font>", style:"tel" },
-            { title: "<font color=\"#6f6f6f\">"+i18n.tr("Linphone")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Open Linphone")+"</font>", style:"linphone" }
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Dialer")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the dialer")+"</font>", style:"tel" },
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Linphone")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open Linphone")+"</font>", style:"linphone" }
             ]
 
             ListItem.ItemSelector {
