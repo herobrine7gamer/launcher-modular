@@ -23,54 +23,54 @@ msgstr "Seiten verwalten"
 msgid "Configure Launcher"
 msgstr "Starter konfigurieren"
 
-#: ../qml/Main.qml:618
+#: ../qml/Main.qml:676
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "SVG oder PNG Icon. 1:1 Verhältnis"
 
-#: ../qml/Main.qml:631
+#: ../qml/Main.qml:690
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "Der <b>Titel</> welcher in der App-Liste erscheint"
 
-#: ../qml/Main.qml:636
+#: ../qml/Main.qml:695
 msgid "Website"
 msgstr "Webseite"
 
-#: ../qml/Main.qml:636
+#: ../qml/Main.qml:695
 msgid "Open the browser with the url"
 msgstr "Den Browser mit der URL öffnen"
 
-#: ../qml/Main.qml:637
+#: ../qml/Main.qml:696
 msgid "Terminal command"
 msgstr "Terminalbefehl"
 
-#: ../qml/Main.qml:637
+#: ../qml/Main.qml:696
 msgid "Launch an order in a terminal"
 msgstr "Eine Anweisung im Terminal ausführen"
 
-#: ../qml/Main.qml:638
+#: ../qml/Main.qml:697
 msgid "Launch app"
 msgstr "App starten"
 
-#: ../qml/Main.qml:638
+#: ../qml/Main.qml:697
 msgid "Launch an app"
 msgstr "Eine App starten"
 
-#: ../qml/Main.qml:661 ../qml/Main.qml:663 ../qml/Main.qml:665
+#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
 msgid "<b>Action</b> exemple: "
 msgstr "<b>Aktion</b Beispiel: "
 
-#: ../qml/Main.qml:679
+#: ../qml/Main.qml:739
 msgid "Create icon"
 msgstr "Icon erstellen"
 
-#: ../qml/Main.qml:724 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/Main.qml:784 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
 #: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../qml/About.qml:10
+#: ../qml/Main.qml:587 ../qml/About.qml:14
 msgid "About"
 msgstr "Über"
 
@@ -78,31 +78,31 @@ msgstr "Über"
 msgid "Version: "
 msgstr "Version: "
 
-#: ../qml/About.qml:84
+#: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
 msgstr "Ein modularer App-Starter für Ubuntu Touch"
 
-#: ../qml/About.qml:98
+#: ../qml/About.qml:110
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
 msgstr "Dieses Programm ist freie Software: du kannst sie verteilen und/oder verändern unter den Bedingungen der GNU General Public License so wie von der Free Software Foundation veröffentlicht, entweder in Version 3 der Lizenz, oder (nach deiner Entscheidung) einer neueren Version. Das Programm wird verteilt in der Hoffnung, dass es nützlich ist, aber OHNE JEDWEDE GARANTIE; ohne auch nur eine implizierte Garantie der VERKÄUFLICHKEIT oder DER GEEIGNETHEIT FÜR EINEN BESTIMMTEN ZWECK. Schaue hier <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> für weitere Details."
 
-#: ../qml/About.qml:113
+#: ../qml/About.qml:125
 msgid "SOURCE"
 msgstr "QUELLCODE"
 
-#: ../qml/About.qml:113
+#: ../qml/About.qml:125
 msgid "ISSUES"
 msgstr "FEHLER"
 
-#: ../qml/About.qml:113
+#: ../qml/About.qml:125
 msgid "DONATE"
 msgstr "SPENDEN"
 
-#: ../qml/About.qml:128
+#: ../qml/About.qml:140
 msgid "Maintainer"
 msgstr "Maintainer"
 
-#: ../qml/About.qml:142
+#: ../qml/About.qml:154
 msgid "Copyright"
 msgstr "Copyright"
 
@@ -131,7 +131,7 @@ msgstr "Standard ist 3 Ereignisse"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
-#: ../qml/widgets/lastcall/Settings.qml:57 ../qml/Settings.qml:91
+#: ../qml/widgets/lastcall/Settings.qml:57 ../qml/Settings.qml:77
 msgid "Generals"
 msgstr "Allgemein"
 
@@ -417,7 +417,7 @@ msgstr "Ereignisse"
 msgid "No events"
 msgstr "Keine Ereignisse"
 
-#: ../qml/ImportPage.qml:13
+#: ../qml/ImportPage.qml:11
 msgid "Choose"
 msgstr "Auswählen"
 
@@ -431,9 +431,8 @@ msgstr "Wähle eine Seite"
 
 #: ../qml/pages/cryptoprice/Settings.qml:17
 #: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
-#: ../qml/pages/cinema/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
-#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/calendar/Settings.qml:12
-#: ../qml/pages/news/Settings.qml:15
+#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/news/Settings.qml:15
 msgid "Settings Page"
 msgstr "Einstellungsseite"
 
@@ -453,27 +452,27 @@ msgstr "Agenda"
 msgid "Widgets"
 msgstr "Widgets"
 
-#: ../qml/pages/home/SettingsBACK.qml:133 ../qml/pages/home/Settings.qml:125
+#: ../qml/pages/home/SettingsBACK.qml:133
 msgid "show clock"
 msgstr "zeige Uhr"
 
-#: ../qml/pages/home/SettingsBACK.qml:142 ../qml/pages/home/Settings.qml:134
+#: ../qml/pages/home/SettingsBACK.qml:142
 msgid "show weather"
 msgstr "zeige Wetter"
 
-#: ../qml/pages/home/SettingsBACK.qml:152 ../qml/pages/home/Settings.qml:144
+#: ../qml/pages/home/SettingsBACK.qml:152
 msgid "show alarm"
 msgstr "zeige Alarm"
 
-#: ../qml/pages/home/SettingsBACK.qml:161 ../qml/pages/home/Settings.qml:153
+#: ../qml/pages/home/SettingsBACK.qml:161
 msgid "show last call"
 msgstr "zeige letzten Anruf"
 
-#: ../qml/pages/home/SettingsBACK.qml:170 ../qml/pages/home/Settings.qml:162
+#: ../qml/pages/home/SettingsBACK.qml:170
 msgid "show last message"
 msgstr "zeige letzte Nachricht"
 
-#: ../qml/pages/home/SettingsBACK.qml:179 ../qml/pages/home/Settings.qml:171
+#: ../qml/pages/home/SettingsBACK.qml:179
 msgid "show event"
 msgstr "zeige Ereigniss"
 
@@ -542,63 +541,63 @@ msgstr "Demnächst"
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: ../qml/Settings.qml:96
+#: ../qml/Settings.qml:82
 msgid "Dark background"
 msgstr "Dunkler Hintergrund"
 
-#: ../qml/Settings.qml:118
+#: ../qml/Settings.qml:104
 msgid "Background blur effect"
 msgstr "Hintergrundunschärfe"
 
-#: ../qml/Settings.qml:126
+#: ../qml/Settings.qml:112
 msgid "Standard"
 msgstr "Standard"
 
-#: ../qml/Settings.qml:126
+#: ../qml/Settings.qml:112
 msgid "Style by default"
 msgstr "Standard-Style"
 
-#: ../qml/Settings.qml:127
+#: ../qml/Settings.qml:113
 msgid "Rounded"
 msgstr "Abgerundet"
 
-#: ../qml/Settings.qml:127
+#: ../qml/Settings.qml:113
 msgid "Icons rounded"
 msgstr "Runde Icons"
 
-#: ../qml/Settings.qml:128
+#: ../qml/Settings.qml:114
 msgid "None"
 msgstr "Keiner"
 
-#: ../qml/Settings.qml:128
+#: ../qml/Settings.qml:114
 msgid "Icons without style"
 msgstr "Icons ohne Style"
 
-#: ../qml/Settings.qml:153
+#: ../qml/Settings.qml:139
 msgid "Style Icons : "
 msgstr "Iconstyle: "
 
-#: ../qml/Settings.qml:164
+#: ../qml/Settings.qml:150
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:168
+#: ../qml/Settings.qml:154
 msgid "Restore standard launcher"
 msgstr "Standard App-Starter wieder herstellen"
 
-#: ../qml/Settings.qml:168
+#: ../qml/Settings.qml:154
 msgid "Install Launcher Modular by default"
 msgstr "Launcher Modular standardmäßig installieren"
 
-#: ../qml/Settings.qml:186
+#: ../qml/Settings.qml:172
 msgid "You will need to restart after installing or restore"
 msgstr "Du musst das Gerät nach einer Installation oder Wiederherstellung neu starten"
 
-#: ../qml/Settings.qml:193
+#: ../qml/Settings.qml:179
 msgid "Replace standard launcher"
 msgstr "Ersetze standard App-Starter"
 
-#: ../qml/Settings.qml:200
+#: ../qml/Settings.qml:186
 msgid "If you can not restore click here"
 msgstr "Falls du nicht wiederherstellen kannst klicke hier"
 
@@ -610,7 +609,7 @@ msgstr "Launcher modular"
 msgid "Special thanks to testers and translators: Sander Klootwijk, Steve Kueffer."
 msgstr "Vielen Dank an die Tester und Übersetzer: Sander Klootwijk, Steve Kueffer."
 
-#: ../qml/About.qml:156
+#: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
 msgstr "Vielen Dank an die Tester und Übersetzer: Sander Klootwijk, Steve Kueffer."
 
@@ -621,4 +620,60 @@ msgstr "Vielen Dank an die Tester und Übersetzer: Sander Klootwijk, Steve Kueff
 #: ../qml/widgets/clock/Settings.qml:56
 msgid "Show analog clock with digits"
 msgstr "Zeige Stundenzahlen auf der analogen Uhr"
+
+#: ../qml/Main.qml:558 ../qml/Translators.qml:14
+msgid "Translators"
+msgstr "Übersetzer"
+
+#: ../qml/Translators.qml:98
+msgid "Dutch - "
+msgstr "Holländisch - "
+
+#: ../qml/Translators.qml:112
+msgid "French - "
+msgstr "Französisch - "
+
+#: ../qml/Translators.qml:126
+msgid "German - "
+msgstr "Deutsch - "
+
+#: ../qml/Translators.qml:140
+msgid "If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> for more details."
+msgstr "Wenn du Launcher Modular in deine Sprache übersetzen möchtest, gehe auf <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> für mehr Details."
+
+#: ../qml/Translators.qml:79
+msgid "Launcher Modular translators:"
+msgstr "Übersetzer von Launcher Modular:"
+
+#: ../qml/pages/home/Settings.qml:125
+msgid "Show clock"
+msgstr "Zeige Uhr"
+
+#: ../qml/pages/home/Settings.qml:134
+msgid "Show weather"
+msgstr "Zeige Wetter"
+
+#: ../qml/pages/home/Settings.qml:144
+msgid "Show alarm"
+msgstr "Zeige Alarm"
+
+#: ../qml/pages/home/Settings.qml:153
+msgid "Show last call"
+msgstr "Zeige letzten Anruf"
+
+#: ../qml/pages/home/Settings.qml:162
+msgid "Show last message"
+msgstr "Zeige letze Nachricht"
+
+#: ../qml/pages/home/Settings.qml:171
+msgid "Show event"
+msgstr "Zeige Ereignis"
+
+#: ../qml/pages/home/Settings.qml:144
+msgid "Show alarms"
+msgstr "Zeige Alarme"
+
+#: ../qml/pages/home/Settings.qml:171
+msgid "Show events"
+msgstr "Zeige Ereignisse"
 
