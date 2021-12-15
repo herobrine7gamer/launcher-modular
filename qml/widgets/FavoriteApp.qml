@@ -202,7 +202,7 @@ Column {
                                 anchors.topMargin: units.gu(1)
                                 width: parent.width
                                 font.pixelSize: units.gu(1.5)
-                                wrapMode: Text.WordWrap
+                                wrapMode: Text.Wrap
                                 text: name
                                 color: launchermodular.settings.textColor
                              }
