@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 10:59+0000\n"
+"POT-Creation-Date: 2021-12-15 19:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -615,23 +615,27 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:155
+msgid "Show again hided Android apps in Launcher Modular"
+msgstr ""
+
+#: ../qml/Settings.qml:162
 msgid "Restore standard launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:162
 msgid "Install Launcher Modular by default"
 msgstr ""
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:180
 msgid "You will need to restart after installing or restore"
 msgstr ""
 
-#: ../qml/Settings.qml:179
+#: ../qml/Settings.qml:187
 msgid "Replace standard launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:186
+#: ../qml/Settings.qml:194
 msgid "If you can not restore click here"
 msgstr ""
 

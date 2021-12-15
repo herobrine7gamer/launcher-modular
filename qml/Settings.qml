@@ -145,10 +145,18 @@ Rectangle {
             }
 
           }
-                            
+                                           
             ListItem.Header {
                 text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
             }
+            
+        Button {
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: i18n.tr('Show again hided Android apps in Launcher Modular')
+            color: UbuntuColors.red
+   
+                onClicked: Terminalaccess.run("bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/repair.sh")
+            }                
         
         Button {
             text: LauncherModularPlug.isDashSet ? i18n.tr('Restore standard launcher') : i18n.tr('Install Launcher Modular by default')
@@ -191,8 +199,7 @@ Rectangle {
                 onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/uninstall.sh ; restart unity8")
             }            
         }
-
-        
+                               
         } // column
     } //flickable
  } //rectangle settings
@@ -201,7 +208,5 @@ Rectangle {
 Connections {
 	target: Terminalaccess
 	onNeedSudoPassword: {PopupUtils.open(diag)}
-}
-
-
+       }
 }
