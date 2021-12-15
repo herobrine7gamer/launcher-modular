@@ -581,23 +581,23 @@ msgstr "Pictogrammen stijl : "
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:162
 msgid "Restore standard launcher"
 msgstr "Standaard launcher herstellen"
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:162
 msgid "Install Launcher Modular by default"
 msgstr "Installeer Launcher Modular als standaard launcher"
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:180
 msgid "You will need to restart after installing or restore"
 msgstr "U dient uw apparaat te herstarten"
 
-#: ../qml/Settings.qml:179
+#: ../qml/Settings.qml:187
 msgid "Replace standard launcher"
 msgstr "Standaard launcher vervangen"
 
-#: ../qml/Settings.qml:186
+#: ../qml/Settings.qml:194
 msgid "If you can not restore click here"
 msgstr "Klik hier als u de launcher niet kunt herstellen"
 
@@ -676,4 +676,8 @@ msgstr "Toon alarmen"
 #: ../qml/pages/home/Settings.qml:171
 msgid "Show events"
 msgstr "Toon gebeurtenissen"
+
+#: ../qml/Settings.qml:155
+msgid "Show again hided Android apps in Launcher Modular"
+msgstr "Toon opnieuw verborgen Android-apps in Launcher Modular"
 
