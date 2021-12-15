@@ -471,7 +471,7 @@ Connections {
                             anchors.topMargin: units.gu(1)
                             width: parent.width
                             font.pixelSize: units.gu(1.5)
-                            wrapMode: Text.WordWrap
+                            wrapMode: Text.Wrap
                             text: elem.name;
                             color: launchermodular.settings.textColor
                          }
