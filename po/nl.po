@@ -431,9 +431,8 @@ msgstr "Kies een pagina"
 
 #: ../qml/pages/cryptoprice/Settings.qml:17
 #: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
-#: ../qml/pages/cinema/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
-#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/calendar/Settings.qml:12
-#: ../qml/pages/news/Settings.qml:15
+#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/news/Settings.qml:15
 msgid "Settings Page"
 msgstr "Instellingen"
 
@@ -592,7 +591,7 @@ msgstr "Installeer Launcher Modular als standaard launcher"
 
 #: ../qml/Settings.qml:172
 msgid "You will need to restart after installing or restore"
-msgstr "U dient uw apparaat te herstarten na het installeren of herstellen van de launcher"
+msgstr "U dient uw apparaat te herstarten"
 
 #: ../qml/Settings.qml:179
 msgid "Replace standard launcher"
