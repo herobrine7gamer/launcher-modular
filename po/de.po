@@ -581,23 +581,23 @@ msgstr "Iconstyle: "
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:162
 msgid "Restore standard launcher"
 msgstr "Standard App-Starter wieder herstellen"
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:162
 msgid "Install Launcher Modular by default"
 msgstr "Launcher Modular standardmäßig installieren"
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:180
 msgid "You will need to restart after installing or restore"
 msgstr "Du musst das Gerät nach einer Installation oder Wiederherstellung neu starten"
 
-#: ../qml/Settings.qml:179
+#: ../qml/Settings.qml:187
 msgid "Replace standard launcher"
 msgstr "Ersetze standard App-Starter"
 
-#: ../qml/Settings.qml:186
+#: ../qml/Settings.qml:194
 msgid "If you can not restore click here"
 msgstr "Falls du nicht wiederherstellen kannst klicke hier"
 
@@ -676,4 +676,8 @@ msgstr "Zeige Alarme"
 #: ../qml/pages/home/Settings.qml:171
 msgid "Show events"
 msgstr "Zeige Ereignisse"
+
+#: ../qml/Settings.qml:155
+msgid "Show again hided Android apps in Launcher Modular"
+msgstr "Ausgeblendete Android-Apps in Launcher Modular wieder anzeigen"
 
