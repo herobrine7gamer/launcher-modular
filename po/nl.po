@@ -577,15 +577,15 @@ msgstr "Stijlloze pictogrammen"
 msgid "Style Icons : "
 msgstr "Pictogrammen stijl : "
 
-#: ../qml/Settings.qml:150
+#: ../qml/Settings.qml:172
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:162
+#: ../qml/Settings.qml:176
 msgid "Restore standard launcher"
 msgstr "Standaard launcher herstellen"
 
-#: ../qml/Settings.qml:162
+#: ../qml/Settings.qml:176
 msgid "Install Launcher Modular by default"
 msgstr "Installeer Launcher Modular als standaard launcher"
 
@@ -593,7 +593,7 @@ msgstr "Installeer Launcher Modular als standaard launcher"
 msgid "You will need to restart after installing or restore"
 msgstr "U dient uw apparaat te herstarten"
 
-#: ../qml/Settings.qml:187
+#: ../qml/Settings.qml:201
 msgid "Replace standard launcher"
 msgstr "Standaard launcher vervangen"
 
@@ -677,7 +677,23 @@ msgstr "Toon alarmen"
 msgid "Show events"
 msgstr "Toon gebeurtenissen"
 
-#: ../qml/Settings.qml:155
+#: ../qml/Settings.qml:165
 msgid "Show again hided Android apps in Launcher Modular"
 msgstr "Toon opnieuw verborgen Android-apps in Launcher Modular"
+
+#: ../qml/Settings.qml:150
+msgid "Hided Android apps"
+msgstr "Verborgen Android-apps"
+
+#: ../qml/Settings.qml:156
+msgid "<b>Use this only when you have hidden Android applications using \"WayDroid Helper\" and want them to appear in \"Launcher Modular\"</b>"
+msgstr "<b>Gebruik dit alleen als je Android applicaties hebt verborgen met \"WayDroid Helper\" en ze wilt laten verschijnen in \"Launcher Modular\"</b>"
+
+#: ../qml/Settings.qml:194
+msgid "<b>You will need to restart after installing or restore</b>"
+msgstr "<b>U dient uw apparaat te herstarten</b>"
+
+#: ../qml/Settings.qml:208
+msgid "<b>If you can not restore click here</b>"
+msgstr "<b>Klik hier als u de launcher niet kunt herstellen</b>"
 
