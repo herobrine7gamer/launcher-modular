@@ -147,8 +147,18 @@ Rectangle {
           }
                                            
             ListItem.Header {
-                text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
+                text: "<font color=\"#ffffff\">"+i18n.tr("Hided Android apps")+"</font>"
             }
+            
+        Text{
+            id: pleaseRepair
+            width: parent.width              
+            text: i18n.tr('<b>Use this only when you have hidden Android applications using "WayDroid Helper" and want them to appear in "Launcher Modular"</b>')
+            wrapMode: Text.Wrap
+            horizontalAlignment: Text.AlignHCenter
+            anchors.horizontalCenter: parent.horizontalCenter
+            color: "white"
+        }               
             
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
@@ -156,8 +166,12 @@ Rectangle {
             color: UbuntuColors.red
    
                 onClicked: Terminalaccess.run("bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/repair.sh")
-            }                
-        
+            } 
+            
+            ListItem.Header {
+                text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
+            }            
+                                    
         Button {
             text: LauncherModularPlug.isDashSet ? i18n.tr('Restore standard launcher') : i18n.tr('Install Launcher Modular by default')
             color: LauncherModularPlug.isDashSet ? UbuntuColors.red : UbuntuColors.green
@@ -177,8 +191,8 @@ Rectangle {
             id: pleaseReboot
             anchors.horizontalCenter: parent.horizontalCenter
             visible: false
-            text: i18n.tr('You will need to restart after installing or restore')
-            color: UbuntuColors.red
+            text: i18n.tr('<b>You will need to restart after installing or restore</b>')
+            color: "white"
         }
 
          
@@ -191,7 +205,7 @@ Rectangle {
         }
         Text{
             anchors.horizontalCenter: parent.horizontalCenter
-            text: i18n.tr('If you can not restore click here')
+            text: i18n.tr('<b>If you can not restore click here</b>')
             color: "white"
    
             MouseArea {
