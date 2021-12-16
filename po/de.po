@@ -577,15 +577,15 @@ msgstr "Icons ohne Style"
 msgid "Style Icons : "
 msgstr "Iconstyle: "
 
-#: ../qml/Settings.qml:150
+#: ../qml/Settings.qml:172
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:162
+#: ../qml/Settings.qml:176
 msgid "Restore standard launcher"
 msgstr "Standard App-Starter wieder herstellen"
 
-#: ../qml/Settings.qml:162
+#: ../qml/Settings.qml:176
 msgid "Install Launcher Modular by default"
 msgstr "Launcher Modular standardmäßig installieren"
 
@@ -593,7 +593,7 @@ msgstr "Launcher Modular standardmäßig installieren"
 msgid "You will need to restart after installing or restore"
 msgstr "Du musst das Gerät nach einer Installation oder Wiederherstellung neu starten"
 
-#: ../qml/Settings.qml:187
+#: ../qml/Settings.qml:201
 msgid "Replace standard launcher"
 msgstr "Ersetze standard App-Starter"
 
@@ -677,7 +677,23 @@ msgstr "Zeige Alarme"
 msgid "Show events"
 msgstr "Zeige Ereignisse"
 
-#: ../qml/Settings.qml:155
+#: ../qml/Settings.qml:165
 msgid "Show again hided Android apps in Launcher Modular"
 msgstr "Ausgeblendete Android-Apps in Launcher Modular wieder anzeigen"
+
+#: ../qml/Settings.qml:150
+msgid "Hided Android apps"
+msgstr "Versteckte Android-Apps"
+
+#: ../qml/Settings.qml:156
+msgid "<b>Use this only when you have hidden Android applications using \"WayDroid Helper\" and want them to appear in \"Launcher Modular\"</b>"
+msgstr "<b>Verwenden Sie dies nur, wenn Sie Android-Anwendungen mit \"WayDroid Helper\" ausgeblendet haben und möchten, dass sie in \"Launcher Modular\" angezeigt werden</b>"
+
+#: ../qml/Settings.qml:194
+msgid "<b>You will need to restart after installing or restore</b>"
+msgstr "<b>Sie müssen nach der Installation oder Wiederherstellung neu starten</b>"
+
+#: ../qml/Settings.qml:208
+msgid "<b>If you can not restore click here</b>"
+msgstr "<b>Wenn Sie nicht wiederherstellen können, klicken Sie hier</b>"
 
