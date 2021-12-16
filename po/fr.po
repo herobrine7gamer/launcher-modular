@@ -11,66 +11,66 @@ msgstr ""
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 #. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
 #. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#: ../qml/Main.qml:471
+#: ../qml/Main.qml:475
 msgid "Add custom icon"
 msgstr "Ajouter une icône personnalisée"
 
-#: ../qml/Main.qml:498
+#: ../qml/Main.qml:502
 msgid "Manage page"
 msgstr "Gérer la page"
 
-#: ../qml/Main.qml:525
+#: ../qml/Main.qml:529
 msgid "Configure Launcher"
 msgstr "Configurer le lanceur"
 
-#: ../qml/Main.qml:672
+#: ../qml/Main.qml:676
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "Icône SVG ou PNG au ratio 1:1"
 
-#: ../qml/Main.qml:686
+#: ../qml/Main.qml:690
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "Le <b>titre</b> à afficher dans la liste des applications"
 
-#: ../qml/Main.qml:691
+#: ../qml/Main.qml:695
 msgid "Website"
 msgstr "Site internet"
 
-#: ../qml/Main.qml:691
+#: ../qml/Main.qml:695
 msgid "Open the browser with the url"
 msgstr "Ouvrir le lien avec le navigateur"
 
-#: ../qml/Main.qml:692
+#: ../qml/Main.qml:696
 msgid "Terminal command"
 msgstr "Commande de terminal"
 
-#: ../qml/Main.qml:692
+#: ../qml/Main.qml:696
 msgid "Launch an order in a terminal"
 msgstr "Lancer un ordre dans un terminal"
 
-#: ../qml/Main.qml:693
+#: ../qml/Main.qml:697
 msgid "Launch app"
 msgstr "Lancer l'application"
 
-#: ../qml/Main.qml:693
+#: ../qml/Main.qml:697
 msgid "Launch an app"
 msgstr "Lancer une application"
 
-#: ../qml/Main.qml:717 ../qml/Main.qml:719 ../qml/Main.qml:721
+#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
 msgid "<b>Action</b> exemple: "
 msgstr "Exemple d'<b>action</b> : "
 
-#: ../qml/Main.qml:735
+#: ../qml/Main.qml:739
 msgid "Create icon"
 msgstr "Créer une icône"
 
-#: ../qml/Main.qml:780 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/Main.qml:784 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
 #: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
 #: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../qml/Main.qml:583 ../qml/About.qml:14
+#: ../qml/Main.qml:587 ../qml/About.qml:14
 msgid "About"
 msgstr "À propos"
 
@@ -432,7 +432,7 @@ msgstr "Sélectionner une page"
 #: ../qml/pages/cryptoprice/Settings.qml:17
 #: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
-#: ../qml/pages/calendar/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/news/Settings.qml:15
 msgid "Settings Page"
 msgstr "Paramètres de la page"
 
@@ -577,27 +577,27 @@ msgstr "Icônes sans style"
 msgid "Style Icons : "
 msgstr "Style d'icones "
 
-#: ../qml/Settings.qml:150
+#: ../qml/Settings.qml:172
 msgid "Other"
 msgstr "Autre"
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:176
 msgid "Restore standard launcher"
 msgstr "Restaurer le lanceur standard"
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:176
 msgid "Install Launcher Modular by default"
 msgstr "Installer Lanceur Modulaire par défaut"
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:180
 msgid "You will need to restart after installing or restore"
 msgstr "Vous devrez redémarrer après une installation ou une restauration"
 
-#: ../qml/Settings.qml:179
+#: ../qml/Settings.qml:201
 msgid "Replace standard launcher"
 msgstr "Remplacer le lanceur standard"
 
-#: ../qml/Settings.qml:186
+#: ../qml/Settings.qml:194
 msgid "If you can not restore click here"
 msgstr "Si vous n'arrivez pas à restaurer, cliquez ici"
 
@@ -621,7 +621,7 @@ msgstr "Merci aux traducteurs: Sander Klootwijk, Steve Kueffer, Daniel Frost."
 msgid "Show analog clock with digits"
 msgstr "Afficher l'horloge analogique avec des chiffres"
 
-#: ../qml/Main.qml:554 ../qml/Translators.qml:14
+#: ../qml/Main.qml:558 ../qml/Translators.qml:14
 msgid "Translators"
 msgstr "Traducteurs"
 
@@ -676,4 +676,24 @@ msgstr "Afficher les alarmes"
 #: ../qml/pages/home/Settings.qml:171
 msgid "Show events"
 msgstr "Afficher les évènements"
+
+#: ../qml/Settings.qml:165
+msgid "Show again hided Android apps in Launcher Modular"
+msgstr "Montrer à nouveau les applications Android masquées dans Lanceur Modulaire"
+
+#: ../qml/Settings.qml:150
+msgid "Hided Android apps"
+msgstr "Applications Android masquées"
+
+#: ../qml/Settings.qml:156
+msgid "<b>Use this only when you have hidden Android applications using \"WayDroid Helper\" and want them to appear in \"Launcher Modular\"</b>"
+msgstr "<b>Utilisez ceci uniquement lorsque vous avez masqué des applications Android à l'aide de \"WayDroid Helper\" et que vous souhaitez les faire apparaître dans \"Launcher Modular\"</b>"
+
+#: ../qml/Settings.qml:194
+msgid "<b>You will need to restart after installing or restore</b>"
+msgstr "<b>Vous devrez redémarrer après l'installation ou la restauration</b>"
+
+#: ../qml/Settings.qml:208
+msgid "<b>If you can not restore click here</b>"
+msgstr "<b>Si vous ne pouvez pas restaurer, cliquez ici</b>"
 
