@@ -641,8 +641,7 @@ msgstr "Немецкий - "
 
 #: ../qml/Translators.qml:154
 msgid "If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> for more details."
-msgstr "Если вы хотите перевести Launcher Modular на свой язык, перейдите на <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> для получения подробной информации.\n"
-""
+msgstr "Если вы хотите перевести Launcher Modular на свой язык, перейдите на <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> для получения подробной информации."
 
 #: ../qml/Translators.qml:79
 msgid "Launcher Modular translators:"
