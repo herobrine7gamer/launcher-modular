@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 05:26+0000\n"
+"POT-Creation-Date: 2021-12-16 15:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid "Launch an app"
 msgstr ""
 
 #: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
-msgid "<b>Action</b> exemple: "
+msgid "<b>Action</b> example: "
 msgstr ""
 
 #: ../qml/Main.qml:739
@@ -136,7 +136,7 @@ msgid "Limit of days"
 msgstr ""
 
 #: ../qml/widgets/event/Settings.qml:91 ../qml/pages/calendar/Settings.qml:89
-msgid "By defaut 60 days"
+msgid "By default 60 days"
 msgstr ""
 
 #: ../qml/widgets/event/Settings.qml:116
@@ -144,7 +144,7 @@ msgid "Limit of event"
 msgstr ""
 
 #: ../qml/widgets/event/Settings.qml:135
-msgid "By defaut 3 event"
+msgid "By default 3 event"
 msgstr ""
 
 #: ../qml/widgets/favoritecontact/Settings.qml:57
@@ -666,6 +666,10 @@ msgid "German - "
 msgstr ""
 
 #: ../qml/Translators.qml:140
+msgid "Russian - "
+msgstr ""
+
+#: ../qml/Translators.qml:154
 msgid ""
 "If you like to translate Launcher Modular into your own language, go to <a "
 "href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> for "

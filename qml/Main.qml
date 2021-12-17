@@ -718,11 +718,11 @@ Rectangle {
                         }
                         inputMethodHints: Qt.ImhNoAutoUppercase
                         placeholderText: { 
-                            if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "website"){i18n.tr("<b>Action</b> exemple: ")+"https://forums.ubports.com/"}
+                            if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "website"){i18n.tr("<b>Action</b> example: ")+"https://forums.ubports.com/"}
                             
-                            if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "terminal"){i18n.tr("<b>Action</b> exemple: ")+"sudo reboot"}
+                            if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "terminal"){i18n.tr("<b>Action</b> example: ")+"sudo reboot"}
                             
-                            if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "appid"){i18n.tr("<b>Action</b> exemple: ")+"dialer-app.desktop"}
+                            if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "appid"){i18n.tr("<b>Action</b> example: ")+"dialer-app.desktop"}
                         }
                     }
                  

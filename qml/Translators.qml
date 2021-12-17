@@ -130,7 +130,21 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          } 
+          }
+          
+        Item {
+            width: parent.width
+            height: trans4Label.height + units.gu(2)
+            Label {
+                id: trans4Label
+                text: i18n.tr("Russian - ") + "Dema"
+                anchors.centerIn: parent
+                wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
+                horizontalAlignment: Text.AlignHCenter
+                width: parent.width - units.gu(12)
+                color: "#ffffff"
+            }
+          }           
           
         Item {
             width: parent.width

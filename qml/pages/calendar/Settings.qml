@@ -86,7 +86,7 @@ Rectangle {
 
                         TextField {
                             objectName: "textfield_standard"
-                            placeholderText: i18n.tr("By defaut 60 days")
+                            placeholderText: i18n.tr("By default 60 days")
                             width: parent.width
                             text: launchermodular.settings.limiteDaysCalendar
                             onTextChanged: { launchermodular.settings.limiteDaysCalendar = text }
