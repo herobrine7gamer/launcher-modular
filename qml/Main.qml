@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "0.1.14"
+    property string appVersion : "0.1.15"
 
 
     function getCustomIconArray() {
@@ -397,7 +397,7 @@ Rectangle {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: "darkgray"
-                text: "Swipe up to configure the launcher"
+                text: i18n.tr("Swipe up to configure the launcher")
             }
 
             Icon {
