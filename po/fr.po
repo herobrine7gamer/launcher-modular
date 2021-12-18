@@ -713,3 +713,7 @@ msgstr "Par défaut 60 jours"
 msgid "By default 3 event"
 msgstr "Par défaut 3 événement"
 
+#: ../qml/Main.qml:400
+msgid "Swipe up to configure the launcher"
+msgstr "Balayez vers le haut pour configurer le lanceur"
+
