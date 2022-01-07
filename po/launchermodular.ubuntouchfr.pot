@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-06 21:21+0000\n"
+"POT-Creation-Date: 2022-01-07 06:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,14 +109,14 @@ msgstr ""
 msgid "Choose a page"
 msgstr ""
 
-#: ../qml/Pagemanagement.qml:137 ../qml/Main.qml:784
+#: ../qml/Pagemanagement.qml:137 ../qml/Main.qml:783
 #: ../qml/Pagemanagementback.qml:128 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/pages/Home.qml:436
 #: ../qml/pages/home/Settings.qml:91 ../qml/pages/home/SettingsBACK.qml:99
 msgid "Cancel"
 msgstr ""
 
-#: ../qml/Translators.qml:14 ../qml/Main.qml:558
+#: ../qml/Translators.qml:14 ../qml/Main.qml:557
 msgid "Translators"
 msgstr ""
 
@@ -147,63 +147,63 @@ msgid ""
 "more details."
 msgstr ""
 
-#: ../qml/Main.qml:400
+#: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
 msgstr ""
 
-#: ../qml/Main.qml:475
+#: ../qml/Main.qml:474
 msgid "Add custom icon"
 msgstr ""
 
-#: ../qml/Main.qml:502
+#: ../qml/Main.qml:501
 msgid "Manage page"
 msgstr ""
 
-#: ../qml/Main.qml:529
+#: ../qml/Main.qml:528
 msgid "Configure Launcher"
 msgstr ""
 
-#: ../qml/Main.qml:587 ../qml/About.qml:14
+#: ../qml/Main.qml:586 ../qml/About.qml:14
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:676
+#: ../qml/Main.qml:675
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr ""
 
-#: ../qml/Main.qml:690
+#: ../qml/Main.qml:689
 msgid "The <b>title</b> to be shown in the app list"
 msgstr ""
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:694
 msgid "Website"
 msgstr ""
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:694
 msgid "Open the browser with the url"
 msgstr ""
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:695
 msgid "Terminal command"
 msgstr ""
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:695
 msgid "Launch an order in a terminal"
 msgstr ""
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:696
 msgid "Launch app"
 msgstr ""
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:696
 msgid "Launch an app"
 msgstr ""
 
-#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
+#: ../qml/Main.qml:720 ../qml/Main.qml:722 ../qml/Main.qml:724
 msgid "<b>Action</b> example: "
 msgstr ""
 
-#: ../qml/Main.qml:739
+#: ../qml/Main.qml:738
 msgid "Create icon"
 msgstr ""
 
