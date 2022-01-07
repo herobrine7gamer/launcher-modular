@@ -368,7 +368,7 @@ Connections {
                                 color: if (launchermodular.settings.iconStyle == "rounded") { "";}else{ "transparent";}
                                 visible: if (launchermodular.settings.iconStyle == "rounded") { false;}else{ true;}
                             }
-                        }
+                        }                      
 
                         UbuntuShape {
                             source: imgIcons

@@ -110,7 +110,7 @@ Rectangle {
 
             property var model: [
             { title: "<font color=\"#ffffff\">"+i18n.tr("Standard")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Style by default")+"</font>", style:"default" },
-            { title: "<font color=\"#ffffff\">"+i18n.tr("Rounded")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons rounded")+"</font>", style:"rounded" },
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Rounded")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons rounded")+"</font>", style:"rounded" },           
             { title: "<font color=\"#ffffff\">"+i18n.tr("None")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons without style")+"</font>", style:"none" }
             ]
 
