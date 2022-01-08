@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#mount -o rw,remount /
+mount -o rw,remount /
 
 sed -i '/NoDisplay=true/d' /home/phablet/.local/share/applications/waydroid.com.android.calculator2.desktop
 sed -i '/NoDisplay=true/d' /home/phablet/.local/share/applications/waydroid.com.android.camera2.desktop
@@ -19,4 +19,4 @@ sed -i '/NoDisplay=true/d' /home/phablet/.local/share/applications/waydroid.org.
 sed -i '/NoDisplay=true/d' /home/phablet/.local/share/applications/waydroid.org.lineageos.jelly.desktop
 sed -i '/NoDisplay=true/d' /home/phablet/.local/share/applications/waydroid.org.lineageos.recorder.desktop
 
-#mount -o ro,remount /
+mount -o ro,remount /

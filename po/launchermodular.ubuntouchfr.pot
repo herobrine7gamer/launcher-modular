@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 08:10+0000\n"
+"POT-Creation-Date: 2022-01-08 08:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,40 +64,26 @@ msgid "Style Icons : "
 msgstr ""
 
 #: ../qml/Settings.qml:150
-msgid "Hided Android apps"
-msgstr ""
-
-#: ../qml/Settings.qml:156
-msgid ""
-"<b>Use this only when you have hidden Android applications using \"WayDroid "
-"Helper\" and want them to appear in \"Launcher Modular\"</b>"
-msgstr ""
-
-#: ../qml/Settings.qml:165
-msgid "Show again hided Android apps in Launcher Modular"
-msgstr ""
-
-#: ../qml/Settings.qml:172
 msgid "Other"
 msgstr ""
 
-#: ../qml/Settings.qml:176
+#: ../qml/Settings.qml:154
 msgid "Restore standard launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:176
+#: ../qml/Settings.qml:154
 msgid "Install Launcher Modular by default"
 msgstr ""
 
-#: ../qml/Settings.qml:194
+#: ../qml/Settings.qml:172
 msgid "<b>You will need to restart after installing or restore</b>"
 msgstr ""
 
-#: ../qml/Settings.qml:201
+#: ../qml/Settings.qml:179
 msgid "Replace standard launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:208
+#: ../qml/Settings.qml:186
 msgid "<b>If you can not restore click here</b>"
 msgstr ""
 
@@ -109,14 +95,32 @@ msgstr ""
 msgid "Choose a page"
 msgstr ""
 
-#: ../qml/Pagemanagement.qml:137 ../qml/Main.qml:783
+#: ../qml/Pagemanagement.qml:137 ../qml/Main.qml:808
 #: ../qml/Pagemanagementback.qml:128 ../qml/widgets/FavoriteAppBACK.qml:150
 #: ../qml/widgets/FavoriteApp.qml:169 ../qml/pages/Home.qml:436
 #: ../qml/pages/home/Settings.qml:91 ../qml/pages/home/SettingsBACK.qml:99
 msgid "Cancel"
 msgstr ""
 
-#: ../qml/Translators.qml:14 ../qml/Main.qml:557
+#: ../qml/Util.qml:18 ../qml/Main.qml:528
+msgid "Utilities"
+msgstr ""
+
+#: ../qml/Util.qml:58
+msgid "Hided Android apps"
+msgstr ""
+
+#: ../qml/Util.qml:64
+msgid ""
+"<b>Use this only when you have hidden Android applications using \"WayDroid "
+"Helper\" and want them to appear in \"Launcher Modular\"</b>"
+msgstr ""
+
+#: ../qml/Util.qml:73
+msgid "Show again hided Android apps in Launcher Modular"
+msgstr ""
+
+#: ../qml/Translators.qml:14 ../qml/Main.qml:582
 msgid "Translators"
 msgstr ""
 
@@ -159,51 +163,51 @@ msgstr ""
 msgid "Manage page"
 msgstr ""
 
-#: ../qml/Main.qml:528
+#: ../qml/Main.qml:555
 msgid "Configure Launcher"
 msgstr ""
 
-#: ../qml/Main.qml:586 ../qml/About.qml:14
+#: ../qml/Main.qml:611 ../qml/About.qml:14
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:675
+#: ../qml/Main.qml:700
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr ""
 
-#: ../qml/Main.qml:689
+#: ../qml/Main.qml:714
 msgid "The <b>title</b> to be shown in the app list"
 msgstr ""
 
-#: ../qml/Main.qml:694
+#: ../qml/Main.qml:719
 msgid "Website"
 msgstr ""
 
-#: ../qml/Main.qml:694
+#: ../qml/Main.qml:719
 msgid "Open the browser with the url"
 msgstr ""
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:720
 msgid "Terminal command"
 msgstr ""
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:720
 msgid "Launch an order in a terminal"
 msgstr ""
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:721
 msgid "Launch app"
 msgstr ""
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:721
 msgid "Launch an app"
 msgstr ""
 
-#: ../qml/Main.qml:720 ../qml/Main.qml:722 ../qml/Main.qml:724
+#: ../qml/Main.qml:745 ../qml/Main.qml:747 ../qml/Main.qml:749
 msgid "<b>Action</b> example: "
 msgstr ""
 
-#: ../qml/Main.qml:738
+#: ../qml/Main.qml:763
 msgid "Create icon"
 msgstr ""
 

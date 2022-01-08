@@ -147,28 +147,6 @@ Rectangle {
           }
                                            
             ListItem.Header {
-                text: "<font color=\"#ffffff\">"+i18n.tr("Hided Android apps")+"</font>"
-            }
-            
-        Text{
-            id: pleaseRepair
-            width: parent.width              
-            text: i18n.tr('<b>Use this only when you have hidden Android applications using "WayDroid Helper" and want them to appear in "Launcher Modular"</b>')
-            wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
-            anchors.horizontalCenter: parent.horizontalCenter
-            color: "white"
-        }               
-            
-        Button {
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: i18n.tr('Show again hided Android apps in Launcher Modular')
-            color: UbuntuColors.red
-   
-                onClicked: Terminalaccess.run("bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/repair.sh")
-            } 
-            
-            ListItem.Header {
                 text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
             }            
                                     

@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "1.0.0"
+    property string appVersion : "1.1.0"
         
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
@@ -515,6 +515,33 @@ Rectangle {
                     height: parent.height
                     width: units.gu(8)
                     Icon {
+                        id: iconUtil
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        name: "applications-utilities-symbolic"
+                        height: units.gu(3)
+                        width: units.gu(3)
+                    }
+                    Text {
+                        anchors.top: iconUtil.bottom
+                        horizontalAlignment: Text.AlignHCenter
+                        width: parent.width
+                        text: i18n.tr("Utilities")
+                        font.pointSize: units.gu(1)
+                        wrapMode:Text.WordWrap
+                    }
+                  MouseArea {
+                            anchors.fill: parent
+                            onPressed: {
+                                    pageStack.push(Qt.resolvedUrl("Util.qml"))
+                                    bottomBarSettings.close()
+                            }
+                  }
+                }                 
+                Column {
+                    anchors.verticalCenter: parent.verticalCenter
+                    height: parent.height
+                    width: units.gu(8)
+                    Icon {
                         id: iconSettings
                         anchors.horizontalCenter: parent.horizontalCenter
                         name: "properties"
@@ -536,8 +563,6 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-
-
                 }                 
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
