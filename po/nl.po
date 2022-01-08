@@ -11,47 +11,47 @@ msgstr ""
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 #. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
 #. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#: ../qml/Main.qml:475
+#: ../qml/Main.qml:474
 msgid "Add custom icon"
 msgstr "Aangepast pictogram"
 
-#: ../qml/Main.qml:502
+#: ../qml/Main.qml:501
 msgid "Manage page"
 msgstr "Beheer pagina"
 
-#: ../qml/Main.qml:529
+#: ../qml/Main.qml:555
 msgid "Configure Launcher"
 msgstr "Configureer Launcher"
 
-#: ../qml/Main.qml:676
+#: ../qml/Main.qml:700
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "SVG of PNG icoon. 1:1 ratio"
 
-#: ../qml/Main.qml:690
+#: ../qml/Main.qml:714
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "De <b>titel</b> die in de lijst weergeven moet worden"
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:719
 msgid "Website"
 msgstr "Website"
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:719
 msgid "Open the browser with the url"
 msgstr "Open de browser met de url"
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:720
 msgid "Terminal command"
 msgstr "Terminal commando"
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:720
 msgid "Launch an order in a terminal"
 msgstr "Open een commando in een terminal"
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:721
 msgid "Launch app"
 msgstr "Open app"
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:721
 msgid "Launch an app"
 msgstr "Open een app"
 
@@ -59,18 +59,18 @@ msgstr "Open een app"
 msgid "<b>Action</b> exemple: "
 msgstr "<b>Actie</b> voorbeeld: "
 
-#: ../qml/Main.qml:739
+#: ../qml/Main.qml:763
 msgid "Create icon"
 msgstr "Maak icoon"
 
-#: ../qml/Main.qml:784 ../qml/widgets/FavoriteAppBACK.qml:150
-#: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
-#: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
-#: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
+#: ../qml/Pagemanagement.qml:137 ../qml/Main.qml:808
+#: ../qml/Pagemanagementback.qml:128 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/widgets/FavoriteApp.qml:169 ../qml/pages/Home.qml:436
+#: ../qml/pages/home/Settings.qml:91 ../qml/pages/home/SettingsBACK.qml:99
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../qml/Main.qml:587 ../qml/About.qml:14
+#: ../qml/Main.qml:611 ../qml/About.qml:14
 msgid "About"
 msgstr "Over"
 
@@ -106,8 +106,8 @@ msgstr "Beheerder"
 msgid "Copyright"
 msgstr "Copyright"
 
-#: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
+#: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 #: ../qml/widgets/lastcall/Settings.qml:15
 msgid "Settings Widget"
@@ -117,7 +117,7 @@ msgstr "Instellingen Widget"
 msgid "Limit of days"
 msgstr "Aantal dagen"
 
-#: ../qml/widgets/event/Settings.qml:91 ../qml/pages/calendar/Settings.qml:89
+#: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By defaut 60 days"
 msgstr "Een standaard van 60 dagen"
 
@@ -129,9 +129,9 @@ msgstr "Grens van gebeurtenis"
 msgid "By defaut 3 event"
 msgstr "Standaard 3 gebeurtenissen"
 
-#: ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/Settings.qml:77 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
-#: ../qml/widgets/lastcall/Settings.qml:57 ../qml/Settings.qml:77
+#: ../qml/widgets/lastcall/Settings.qml:57
 msgid "Generals"
 msgstr "Algemeen"
 
@@ -429,10 +429,10 @@ msgstr "Beheer pagina's"
 msgid "Choose a page"
 msgstr "Kies een pagina"
 
+#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/home/Settings.qml:14
+#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/todo/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12
 #: ../qml/pages/cryptoprice/Settings.qml:17
-#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
-#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
-#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/news/Settings.qml:15
 msgid "Settings Page"
 msgstr "Instellingen"
 
@@ -448,7 +448,7 @@ msgstr "Uw valuta?"
 msgid "Agenda"
 msgstr "Agenda"
 
-#: ../qml/pages/home/SettingsBACK.qml:128 ../qml/pages/home/Settings.qml:120
+#: ../qml/pages/home/Settings.qml:120 ../qml/pages/home/SettingsBACK.qml:128
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -476,12 +476,12 @@ msgstr "toon laatste bericht"
 msgid "show event"
 msgstr "toon gebeurtenissen"
 
-#: ../qml/pages/home/SettingsBACK.qml:191 ../qml/pages/home/Settings.qml:183
+#: ../qml/pages/home/Settings.qml:183 ../qml/pages/home/SettingsBACK.qml:191
 msgid "Favorite apps management"
 msgstr "Beheer favoriete apps"
 
-#: ../qml/pages/home/SettingsBACK.qml:226 ../qml/pages/home/Settings.qml:216
-#: ../qml/pages/Todo.qml:119 ../qml/Pagemanagementback.qml:182
+#: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
+#: ../qml/pages/home/Settings.qml:216 ../qml/pages/home/SettingsBACK.qml:226
 msgid "Delete"
 msgstr "Verwijderen"
 
@@ -489,7 +489,7 @@ msgstr "Verwijderen"
 msgid "new todo"
 msgstr "nieuwe to-do"
 
-#: ../qml/pages/News.qml:202
+#: ../qml/pages/News.qml:201
 msgid "by"
 msgstr "door"
 
@@ -577,15 +577,15 @@ msgstr "Stijlloze pictogrammen"
 msgid "Style Icons : "
 msgstr "Pictogrammen stijl : "
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:150
 msgid "Other"
 msgstr "Andere"
 
-#: ../qml/Settings.qml:176
+#: ../qml/Settings.qml:154
 msgid "Restore standard launcher"
 msgstr "Standaard launcher herstellen"
 
-#: ../qml/Settings.qml:176
+#: ../qml/Settings.qml:154
 msgid "Install Launcher Modular by default"
 msgstr "Installeer Launcher Modular als standaard launcher"
 
@@ -593,7 +593,7 @@ msgstr "Installeer Launcher Modular als standaard launcher"
 msgid "You will need to restart after installing or restore"
 msgstr "U dient uw apparaat te herstarten"
 
-#: ../qml/Settings.qml:201
+#: ../qml/Settings.qml:179
 msgid "Replace standard launcher"
 msgstr "Standaard launcher vervangen"
 
@@ -621,7 +621,7 @@ msgstr "In het bijzonder dank aan de vertalers: Sander Klootwijk, Steve Kueffer,
 msgid "Show analog clock with digits"
 msgstr "Toon analoge klok met cijfers"
 
-#: ../qml/Main.qml:558 ../qml/Translators.qml:14
+#: ../qml/Translators.qml:14 ../qml/Main.qml:582
 msgid "Translators"
 msgstr "Vertalers"
 
@@ -677,23 +677,23 @@ msgstr "Toon alarmen"
 msgid "Show events"
 msgstr "Toon gebeurtenissen"
 
-#: ../qml/Settings.qml:165
+#: ../qml/Util.qml:73
 msgid "Show again hided Android apps in Launcher Modular"
 msgstr "Toon opnieuw verborgen Android-apps in Launcher Modular"
 
-#: ../qml/Settings.qml:150
+#: ../qml/Util.qml:58
 msgid "Hided Android apps"
 msgstr "Verborgen Android-apps"
 
-#: ../qml/Settings.qml:156
+#: ../qml/Util.qml:64
 msgid "<b>Use this only when you have hidden Android applications using \"WayDroid Helper\" and want them to appear in \"Launcher Modular\"</b>"
 msgstr "<b>Gebruik dit alleen als je Android applicaties hebt verborgen met \"WayDroid Helper\" en ze wilt laten verschijnen in \"Launcher Modular\"</b>"
 
-#: ../qml/Settings.qml:194
+#: ../qml/Settings.qml:172
 msgid "<b>You will need to restart after installing or restore</b>"
 msgstr "<b>U dient uw apparaat te herstarten</b>"
 
-#: ../qml/Settings.qml:208
+#: ../qml/Settings.qml:186
 msgid "<b>If you can not restore click here</b>"
 msgstr "<b>Klik hier als u de launcher niet kunt herstellen</b>"
 
@@ -701,7 +701,7 @@ msgstr "<b>Klik hier als u de launcher niet kunt herstellen</b>"
 msgid "Russian - "
 msgstr "Russisch - "
 
-#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
+#: ../qml/Main.qml:745 ../qml/Main.qml:747 ../qml/Main.qml:749
 msgid "<b>Action</b> example: "
 msgstr "<b>Actie</b> voorbeeld: "
 
@@ -713,7 +713,27 @@ msgstr "Standaard 60 dagen"
 msgid "By default 3 event"
 msgstr "Standaard 3 gebeurtenissen"
 
-#: ../qml/Main.qml:400
+#: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
 msgstr "Veeg omhoog om te configureren"
+
+#: ../qml/Settings.qml:177
+msgid "Restore dash launcher"
+msgstr "Dash launcher herstellen"
+
+#: ../qml/Settings.qml:185
+msgid "Install this Launcher"
+msgstr "Installeer deze Launcher"
+
+#: ../qml/widgets/clock/Settings.qml:59
+msgid "Dial with digit"
+msgstr "Kies met cijfer"
+
+#: ../qml/widgets/clock/Settings.qml:69
+msgid "Use 24h format"
+msgstr "Gebruik 24-uurs formaat"
+
+#: ../qml/Util.qml:18 ../qml/Main.qml:528
+msgid "Utilities"
+msgstr "Gereedschap"
 
