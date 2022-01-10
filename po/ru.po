@@ -11,47 +11,47 @@ msgstr ""
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 #. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
 #. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#: ../qml/Main.qml:475
+#: ../qml/Main.qml:474
 msgid "Add custom icon"
-msgstr "Добавить личную иконку"
+msgstr "Создать иконку"
 
-#: ../qml/Main.qml:502
+#: ../qml/Main.qml:501
 msgid "Manage page"
 msgstr "Управление страницей"
 
-#: ../qml/Main.qml:529
+#: ../qml/Main.qml:555
 msgid "Configure Launcher"
 msgstr "Настроить Лаунчер"
 
-#: ../qml/Main.qml:676
+#: ../qml/Main.qml:700
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "SVG или PNG иконка. Соотношение 1:1"
 
-#: ../qml/Main.qml:690
+#: ../qml/Main.qml:714
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "<b>название</b> для отображения в списке приложений"
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:719
 msgid "Website"
 msgstr "Вебсайт"
 
-#: ../qml/Main.qml:695
+#: ../qml/Main.qml:719
 msgid "Open the browser with the url"
 msgstr "Открыть в браузере по ссылке"
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:720
 msgid "Terminal command"
 msgstr "Команда в терминале"
 
-#: ../qml/Main.qml:696
+#: ../qml/Main.qml:720
 msgid "Launch an order in a terminal"
 msgstr "Запустить команду в терминале"
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:721
 msgid "Launch app"
 msgstr "Запустить приложение"
 
-#: ../qml/Main.qml:697
+#: ../qml/Main.qml:721
 msgid "Launch an app"
 msgstr "Запустить приложение"
 
@@ -59,20 +59,20 @@ msgstr "Запустить приложение"
 msgid "<b>Action</b> exemple: "
 msgstr "<b>Действие</b> пример: "
 
-#: ../qml/Main.qml:739
+#: ../qml/Main.qml:763
 msgid "Create icon"
 msgstr "Создать иконку"
 
-#: ../qml/Main.qml:784 ../qml/widgets/FavoriteAppBACK.qml:150
-#: ../qml/widgets/FavoriteApp.qml:169 ../qml/Pagemanagement.qml:137
-#: ../qml/pages/home/SettingsBACK.qml:99 ../qml/pages/home/Settings.qml:91
-#: ../qml/pages/Home.qml:436 ../qml/Pagemanagementback.qml:128
+#: ../qml/Pagemanagement.qml:137 ../qml/Main.qml:808
+#: ../qml/Pagemanagementback.qml:128 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/widgets/FavoriteApp.qml:169 ../qml/pages/Home.qml:436
+#: ../qml/pages/home/Settings.qml:91 ../qml/pages/home/SettingsBACK.qml:99
 msgid "Cancel"
 msgstr "Отменить"
 
-#: ../qml/Main.qml:587 ../qml/About.qml:14
+#: ../qml/Main.qml:611 ../qml/About.qml:14
 msgid "About"
-msgstr "О"
+msgstr "Инфо"
 
 #: ../qml/About.qml:67
 msgid "Version: "
@@ -106,8 +106,8 @@ msgstr "Сопроводитель"
 msgid "Copyright"
 msgstr "Авторство"
 
-#: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
+#: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 #: ../qml/widgets/lastcall/Settings.qml:15
 msgid "Settings Widget"
@@ -118,7 +118,7 @@ msgid "Limit of days"
 msgstr "Предел количества дней"
 
 #. Rudi, check please - defaut - default
-#: ../qml/widgets/event/Settings.qml:91 ../qml/pages/calendar/Settings.qml:89
+#: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By defaut 60 days"
 msgstr "По умолчанию 60 дней"
 
@@ -131,9 +131,9 @@ msgstr "Предел количества событий"
 msgid "By defaut 3 event"
 msgstr "По умолчанию 3 события"
 
-#: ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/Settings.qml:77 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
-#: ../qml/widgets/lastcall/Settings.qml:57 ../qml/Settings.qml:77
+#: ../qml/widgets/lastcall/Settings.qml:57
 msgid "Generals"
 msgstr "Основное"
 
@@ -393,7 +393,7 @@ msgstr "Недавний Звонок"
 
 #: ../qml/widgets/Lastcall.qml:57
 msgid "No recent calls"
-msgstr "Нет исх. звонков"
+msgstr "Звонков нет"
 
 #: ../qml/widgets/lastcall/Settings.qml:63
 msgid "Call"
@@ -417,7 +417,7 @@ msgstr "События"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr "Нет событий"
+msgstr "Нет активных событий"
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
@@ -431,10 +431,10 @@ msgstr "Страница управления"
 msgid "Choose a page"
 msgstr "Выберите страницу"
 
+#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/home/Settings.qml:14
+#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/todo/Settings.qml:12
+#: ../qml/pages/calendar/Settings.qml:12
 #: ../qml/pages/cryptoprice/Settings.qml:17
-#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/home/Settings.qml:14
-#: ../qml/pages/todo/Settings.qml:12 ../qml/pages/picture/Settings.qml:12
-#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/news/Settings.qml:15
 msgid "Settings Page"
 msgstr "Страница Настроек"
 
@@ -448,9 +448,9 @@ msgstr "Ваша валюта?"
 
 #: ../qml/pages/Calendar.qml:103
 msgid "Agenda"
-msgstr "Планируемое"
+msgstr "Календарь событий"
 
-#: ../qml/pages/home/SettingsBACK.qml:128 ../qml/pages/home/Settings.qml:120
+#: ../qml/pages/home/Settings.qml:120 ../qml/pages/home/SettingsBACK.qml:128
 msgid "Widgets"
 msgstr "Виджеты"
 
@@ -478,12 +478,12 @@ msgstr "отображать недавнее сообщение"
 msgid "show event"
 msgstr "отображать событие"
 
-#: ../qml/pages/home/SettingsBACK.qml:191 ../qml/pages/home/Settings.qml:183
+#: ../qml/pages/home/Settings.qml:183 ../qml/pages/home/SettingsBACK.qml:191
 msgid "Favorite apps management"
 msgstr "Управление избранными приложениями"
 
-#: ../qml/pages/home/SettingsBACK.qml:226 ../qml/pages/home/Settings.qml:216
-#: ../qml/pages/Todo.qml:119 ../qml/Pagemanagementback.qml:182
+#: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
+#: ../qml/pages/home/Settings.qml:216 ../qml/pages/home/SettingsBACK.qml:226
 msgid "Delete"
 msgstr "Удалить"
 
@@ -491,7 +491,7 @@ msgstr "Удалить"
 msgid "new todo"
 msgstr "новое задание"
 
-#: ../qml/pages/News.qml:202
+#: ../qml/pages/News.qml:201
 msgid "by"
 msgstr "источник"
 
@@ -579,15 +579,15 @@ msgstr "Иконки без эффектов"
 msgid "Style Icons : "
 msgstr "Стиль Иконок : "
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:150
 msgid "Other"
 msgstr "Другие"
 
-#: ../qml/Settings.qml:176
+#: ../qml/Settings.qml:154
 msgid "Restore standard launcher"
 msgstr "Восстановить стандартный Лаунчер"
 
-#: ../qml/Settings.qml:176
+#: ../qml/Settings.qml:154
 msgid "Install Launcher Modular by default"
 msgstr "Установить Лаунчер Модуляр по умолчанию"
 
@@ -595,7 +595,7 @@ msgstr "Установить Лаунчер Модуляр по умолчани
 msgid "You will need to restart after installing or restore"
 msgstr "Перезагрузитесь после установки или восстановления"
 
-#: ../qml/Settings.qml:201
+#: ../qml/Settings.qml:179
 msgid "Replace standard launcher"
 msgstr "Вернуть стандартный Лаунчер"
 
@@ -623,7 +623,7 @@ msgstr "Отдельное спасибо переводчикам: Сандер
 msgid "Show analog clock with digits"
 msgstr "Показать аналоговые часы с цифрами"
 
-#: ../qml/Main.qml:558 ../qml/Translators.qml:14
+#: ../qml/Translators.qml:14
 msgid "Translators"
 msgstr "Переводчики"
 
@@ -679,23 +679,23 @@ msgstr "Отображать уведомления"
 msgid "Show events"
 msgstr "Отображать события"
 
-#: ../qml/Settings.qml:165
+#: ../qml/Util.qml:73
 msgid "Show again hided Android apps in Launcher Modular"
 msgstr "Показать снова скрытые Android приложения в Launcher Modular"
 
-#: ../qml/Settings.qml:150
+#: ../qml/Util.qml:58
 msgid "Hided Android apps"
 msgstr "Скрытые Андроид приложения"
 
-#: ../qml/Settings.qml:156
+#: ../qml/Util.qml:64
 msgid "<b>Use this only when you have hidden Android applications using \"WayDroid Helper\" and want them to appear in \"Launcher Modular\"</b>"
 msgstr "<b>Используйте это только в том случае, если вы скрыли Андроид приложения с помощью «WayDroid Helper» и хотите, чтобы они отображались в «Launcher Modular»</b>"
 
-#: ../qml/Settings.qml:194
+#: ../qml/Settings.qml:172
 msgid "<b>You will need to restart after installing or restore</b>"
 msgstr "<b>После установки или восстановления потребуется перезагрузка</b>"
 
-#: ../qml/Settings.qml:208
+#: ../qml/Settings.qml:186
 msgid "<b>If you can not restore click here</b>"
 msgstr "<b>Если вы не можете восстановить, нажмите здесь</b>"
 
@@ -703,7 +703,7 @@ msgstr "<b>Если вы не можете восстановить, нажми�
 msgid "Russian - "
 msgstr "Русский - "
 
-#: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
+#: ../qml/Main.qml:745 ../qml/Main.qml:747 ../qml/Main.qml:749
 msgid "<b>Action</b> example: "
 msgstr "<b>Действие</b> пример: "
 
@@ -715,7 +715,51 @@ msgstr "По умолчанию 60 дней"
 msgid "By default 3 event"
 msgstr "По умолчанию 3 события"
 
-#: ../qml/Main.qml:400
+#: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
 msgstr "Проведите пальцем вверх, чтобы настроить средство запуска"
+
+#: ../qml/Settings.qml:177
+msgid "Restore dash launcher"
+msgstr "Восстановить панель запуска тире"
+
+#: ../qml/Settings.qml:185
+msgid "Install this Launcher"
+msgstr "Установите этот лаунчер"
+
+#: ../qml/widgets/clock/Settings.qml:59
+msgid "Dial with digit"
+msgstr "Наберите цифру"
+
+#: ../qml/widgets/clock/Settings.qml:69
+msgid "Use 24h format"
+msgstr "Используйте 24-часовой формат"
+
+#: ../qml/Util.qml:18 ../qml/Main.qml:528
+msgid "Utilities"
+msgstr ""
+
+#: ../qml/Main.qml:582
+msgid "Help"
+msgstr ""
+
+#: ../qml/About.qml:183
+msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
+msgstr ""
+
+#: ../qml/Help.qml:15
+msgid "Launcher Modular Help"
+msgstr ""
+
+#: ../qml/Help.qml:49
+msgid "Widget Settings"
+msgstr ""
+
+#: ../qml/Help.qml:52
+msgid "To access to the widget settings, click and hold on the widget and then you can change the widget settings."
+msgstr ""
+
+#: ../qml/Help.qml:57
+msgid "<br><b>To access to the widget settings, click and hold on the widget and then you can change the widget settings.</b>"
+msgstr ""
 
