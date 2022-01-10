@@ -25,7 +25,7 @@ msgstr "Configureer Launcher"
 
 #: ../qml/Main.qml:700
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr "SVG of PNG icoon. 1:1 ratio"
+msgstr "SVG of PNG icoon. 1:1 verhouding"
 
 #: ../qml/Main.qml:714
 msgid "The <b>title</b> to be shown in the app list"
@@ -80,7 +80,7 @@ msgstr "Versie: "
 
 #: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
-msgstr "Een launcher modular voor Ubuntu Touch"
+msgstr "Een modulaire launcher voor Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
@@ -180,7 +180,7 @@ msgstr "API OpenWeatherMap"
 
 #: ../qml/widgets/weather/Settings.qml:97
 msgid "Click to signup for an API key"
-msgstr "Klik om u aan te melden voor een API sleutel"
+msgstr "Klik om je aan te melden voor een API sleutel"
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
@@ -442,7 +442,7 @@ msgstr "Om de 5 seconden bijwerken?"
 
 #: ../qml/pages/cryptoprice/Settings.qml:62
 msgid "Your currency?"
-msgstr "Uw valuta?"
+msgstr "Jouw valuta?"
 
 #: ../qml/pages/Calendar.qml:103
 msgid "Agenda"
@@ -519,7 +519,7 @@ msgstr "URL verzenden naar…"
 
 #: ../qml/pages/Home.qml:158
 msgid "Search your phone and online sources"
-msgstr "Uw telefoon en online bronnen doorzoeken"
+msgstr "Je telefoon en online bronnen doorzoeken"
 
 #: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
@@ -591,7 +591,7 @@ msgstr "Installeer Launcher Modular als standaard launcher"
 
 #: ../qml/Settings.qml:180
 msgid "You will need to restart after installing or restore"
-msgstr "U dient uw apparaat te herstarten"
+msgstr "Je dient je apparaat te herstarten"
 
 #: ../qml/Settings.qml:179
 msgid "Replace standard launcher"
@@ -621,7 +621,7 @@ msgstr "In het bijzonder dank aan de vertalers: Sander Klootwijk, Steve Kueffer,
 msgid "Show analog clock with digits"
 msgstr "Toon analoge klok met cijfers"
 
-#: ../qml/Translators.qml:14 ../qml/Main.qml:582
+#: ../qml/Translators.qml:14
 msgid "Translators"
 msgstr "Vertalers"
 
@@ -679,7 +679,7 @@ msgstr "Toon gebeurtenissen"
 
 #: ../qml/Util.qml:73
 msgid "Show again hided Android apps in Launcher Modular"
-msgstr "Toon opnieuw verborgen Android-apps in Launcher Modular"
+msgstr "Toon verborgen Android-apps opnieuw in Launcher Modular"
 
 #: ../qml/Util.qml:58
 msgid "Hided Android apps"
@@ -691,7 +691,7 @@ msgstr "<b>Gebruik dit alleen als je Android applicaties hebt verborgen met \"Wa
 
 #: ../qml/Settings.qml:172
 msgid "<b>You will need to restart after installing or restore</b>"
-msgstr "<b>U dient uw apparaat te herstarten</b>"
+msgstr "<b>Je dient je apparaat te herstarten</b>"
 
 #: ../qml/Settings.qml:186
 msgid "<b>If you can not restore click here</b>"
@@ -736,4 +736,28 @@ msgstr "Gebruik 24-uurs formaat"
 #: ../qml/Util.qml:18 ../qml/Main.qml:528
 msgid "Utilities"
 msgstr "Gereedschap"
+
+#: ../qml/Main.qml:582
+msgid "Help"
+msgstr "Help"
+
+#: ../qml/About.qml:183
+msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
+msgstr "<a href='LAUNCHER MODULAR VERTALERS'>LAUNCHER MODULAR VERTALERS</a>"
+
+#: ../qml/Help.qml:15
+msgid "Launcher Modular Help"
+msgstr "Launcher Modular Help"
+
+#: ../qml/Help.qml:49
+msgid "Widget Settings"
+msgstr "Widgetinstellingen"
+
+#: ../qml/Help.qml:52
+msgid "To access to the widget settings, click and hold on the widget and then you can change the widget settings."
+msgstr "Om toegang te krijgen tot de widgetinstellingen, houdt u een widget ingedrukt en kunt u de widgetinstellingen wijzigen."
+
+#: ../qml/Help.qml:57
+msgid "<br><b>To access to the widget settings, click and hold on the widget and then you can change the widget settings.</b>"
+msgstr "<br><b>Om toegang te krijgen tot de widgetinstellingen, houdt u een widget ingedrukt en kunt u de widgetinstellingen wijzigen.</b>"
 
