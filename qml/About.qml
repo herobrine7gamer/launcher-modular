@@ -130,8 +130,8 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-        }                  
-
+        }   
+                                  
         Item {
             width: parent.width
             height: thankLabel.height + units.gu(2)
@@ -172,7 +172,24 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          }                           
+          } 
+          
+       Item {
+            width: parent.width
+            height: donateLabel.height + units.gu(2)
+        Label {
+                id: translatorsLabel
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: i18n.tr("<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>")
+                anchors.centerIn: parent
+                wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
+                horizontalAlignment: Text.AlignHCenter
+                width: parent.width - units.gu(12)
+                color: "#ffffff"
+
+                onLinkActivated: pageStack.push(Qt.resolvedUrl("Translators.qml"))
+            }
+          }                                     
         }
       }
     }

@@ -569,24 +569,24 @@ Rectangle {
                     height: parent.height
                     width: units.gu(8)
                     Icon {
-                        id: iconTrans
+                        id: iconHelp
                         anchors.horizontalCenter: parent.horizontalCenter
-                        name: "language-chooser"
+                        name: "help"
                         height: units.gu(3)
                         width: units.gu(3)
                     }
                     Text {
-                        anchors.top: iconTrans.bottom
+                        anchors.top: iconHelp.bottom
                         horizontalAlignment: Text.AlignHCenter
                         width: parent.width
-                        text: i18n.tr("Translators")
+                        text: i18n.tr("Help")
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
-                                    pageStack.push(Qt.resolvedUrl("Translators.qml"))
+                                    pageStack.push(Qt.resolvedUrl("Help.qml"))
                                     bottomBarSettings.close()
                             }
                   }

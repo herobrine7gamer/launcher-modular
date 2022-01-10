@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-08 08:50+0000\n"
+"POT-Creation-Date: 2022-01-10 13:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Show again hided Android apps in Launcher Modular"
 msgstr ""
 
-#: ../qml/Translators.qml:14 ../qml/Main.qml:582
+#: ../qml/Translators.qml:14
 msgid "Translators"
 msgstr ""
 
@@ -165,6 +165,10 @@ msgstr ""
 
 #: ../qml/Main.qml:555
 msgid "Configure Launcher"
+msgstr ""
+
+#: ../qml/Main.qml:582
+msgid "Help"
 msgstr ""
 
 #: ../qml/Main.qml:611 ../qml/About.qml:14
@@ -254,6 +258,10 @@ msgstr ""
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
+msgstr ""
+
+#: ../qml/About.qml:183
+msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
 msgstr ""
 
 #: ../qml/widgets/Lastcall.qml:36
@@ -658,6 +666,20 @@ msgstr ""
 
 #: ../qml/pages/cryptoprice/Settings.qml:62
 msgid "Your currency?"
+msgstr ""
+
+#: ../qml/Help.qml:15
+msgid "Launcher Modular Help"
+msgstr ""
+
+#: ../qml/Help.qml:49
+msgid "Widget Settings"
+msgstr ""
+
+#: ../qml/Help.qml:57
+msgid ""
+"<br><b>To access to the widget settings, click and hold on the widget and "
+"then you can change the widget settings.</b>"
 msgstr ""
 
 #: ../qml/ImportPage.qml:11

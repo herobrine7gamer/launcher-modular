@@ -67,9 +67,9 @@ Rectangle {
             
 
             property var model: [
-            { title: "<font color=\"#6f6f6f\">"+i18n.tr("Nothing")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("No action")+"</font>", style:"nothing" },
-            { title: "<font color=\"#6f6f6f\">"+i18n.tr("Default")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Open the application")+"</font>", style:"default" },
-            { title: "<font color=\"#6f6f6f\">"+i18n.tr("Open Message")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Open the application with message")+"</font>", style:"message" }
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Nothing")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("No action")+"</font>", style:"nothing" },
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Default")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the application")+"</font>", style:"default" },
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Open Message")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the application with message")+"</font>", style:"message" }
             ]
 
             ListItem.ItemSelector {
